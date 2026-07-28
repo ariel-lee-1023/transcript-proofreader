@@ -9,9 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Moved the three reference files into `skills/transcript-proofreader/references/`,
-  per the Agent Skills convention. The routing table in `SKILL.md` and the layout
-  block in `README.md` follow the new paths; no file contents changed.
+- **Flattened to the repository root.** `SKILL.md` and `references/` now sit at the
+  top level instead of under `skills/transcript-proofreader/`, matching the layout
+  used across the other skill repositories: the repository root *is* the skill root,
+  so it can be cloned straight into a skills directory. The README's install, zip
+  and SDK sections were rewritten to match.
+- Moved the three reference files into `references/`, per the Agent Skills
+  convention. The routing table in `SKILL.md` and the layout block in `README.md`
+  follow the new paths; no file contents changed.
 
 ### Fixed
 

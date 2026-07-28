@@ -3,7 +3,7 @@
 > An Agent Skill for proofreading, correcting, and formatting Chinese and English speech-to-text transcripts — with the discipline of a professional copyeditor rather than the enthusiasm of a rewriter.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skill](https://img.shields.io/badge/type-Agent%20Skill-blueviolet)](skills/transcript-proofreader/SKILL.md)
+[![Skill](https://img.shields.io/badge/type-Agent%20Skill-blueviolet)](SKILL.md)
 [![Languages](https://img.shields.io/badge/languages-中文%20%7C%20English-informational)](#)
 
 ---
@@ -44,13 +44,11 @@ Mechanics get fixed. Content gets flagged. Everything the editor supplies goes i
 ├── .github/
 │   └── workflows/
 │       └── validate-skill.yml      # optional CI: frontmatter + link checks
-└── skills/
-    └── transcript-proofreader/
-        ├── SKILL.md                                 # the skill itself
-        └── references/                              # loaded on demand
-            ├── reference-einsohn-copyediting.md
-            ├── reference-hill-king-oral-history.md
-            └── reference-saller-editorial-relations.md
+├── SKILL.md                        # the skill itself
+└── references/                     # loaded on demand
+    ├── reference-einsohn-copyediting.md
+    ├── reference-hill-king-oral-history.md
+    └── reference-saller-editorial-relations.md
 ```
 
 The three reference files are **progressive disclosure**: `SKILL.md` stays small enough to sit in context permanently, and the agent reads a reference only when the situation calls for it.
@@ -60,9 +58,9 @@ The three reference files are **progressive disclosure**: `SKILL.md` stays small
 ### Claude Code
 
 ```bash
-git clone https://github.com/ariel-lee-1023/transcript-proofreader.git
 mkdir -p ~/.claude/skills
-cp -r transcript-proofreader/skills/transcript-proofreader ~/.claude/skills/
+git clone https://github.com/ariel-lee-1023/transcript-proofreader.git \
+  ~/.claude/skills/transcript-proofreader
 ```
 
 Restart Claude Code. Use `/skills` to confirm it loaded.
@@ -71,17 +69,19 @@ For a single project instead of globally, copy into `.claude/skills/` at the pro
 
 ### Claude.ai / Claude Desktop
 
-Zip the skill directory — the folder itself, not its contents:
+Zip the repository directory — the folder itself, not its contents, so that
+`SKILL.md` sits at the top level inside the archive:
 
 ```bash
-cd skills && zip -r transcript-proofreader.zip transcript-proofreader
+cd .. && zip -r transcript-proofreader.zip transcript-proofreader \
+  -x '*/.git/*'
 ```
 
 Then upload under **Settings → Capabilities → Skills**.
 
 ### Claude Agent SDK / API
 
-Point your skills directory at `skills/` and load `transcript-proofreader`. Keep `references/` beside `SKILL.md` — the relative links in the skill resolve from the skill's own directory.
+Point your loader at `SKILL.md` and give it read access to `references/`. Keep the two together — the links in the skill's routing table resolve relative to `SKILL.md`'s own directory.
 
 ## Usage
 
