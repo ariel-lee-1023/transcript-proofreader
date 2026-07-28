@@ -17,9 +17,9 @@ Triggers: 中文语音转录校对、录音转文字整理、会议记录整理�
 
 | Reference | Reach for it when you need… | Its one big idea |
 |---|---|---|
-| [reference-einsohn-copyediting.md](reference-einsohn-copyediting.md) — *The Copyeditor's Handbook*, Einsohn & Schwartz | levels of edit, FIQ, triage priorities, querying craft, style sheets, the rules for quoting spoken vs. written sources | Fix mechanics; query content |
-| [reference-saller-editorial-relations.md](reference-saller-editorial-relations.md) — *The Subversive Copy Editor*, Saller | a disagreement about a change, deciding whether to defer, framing a query, knowing when to stop editing | Style is arbitrary; grammar mostly isn't |
-| [reference-hill-king-oral-history.md](reference-hill-king-oral-history.md) — *Guide to the Transcripts of the Black Women Oral History Project*, Hill & King | bracket conventions, speaker authority, session metadata, access/permission status, topic ordering | The spoken account is evidence of its own kind |
+| [references/reference-einsohn-copyediting.md](references/reference-einsohn-copyediting.md) — *The Copyeditor's Handbook*, Einsohn & Schwartz | levels of edit, FIQ, triage priorities, querying craft, style sheets, the rules for quoting spoken vs. written sources | Fix mechanics; query content |
+| [references/reference-saller-editorial-relations.md](references/reference-saller-editorial-relations.md) — *The Subversive Copy Editor*, Saller | a disagreement about a change, deciding whether to defer, framing a query, knowing when to stop editing | Style is arbitrary; grammar mostly isn't |
+| [references/reference-hill-king-oral-history.md](references/reference-hill-king-oral-history.md) — *Guide to the Transcripts of the Black Women Oral History Project*, Hill & King | bracket conventions, speaker authority, session metadata, access/permission status, topic ordering | The spoken account is evidence of its own kind |
 
 ## The warrant, and its limit
 

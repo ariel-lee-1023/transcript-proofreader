@@ -38,6 +38,7 @@ Mechanics get fixed. Content gets flagged. Everything the editor supplies goes i
 .
 ├── README.md
 ├── LICENSE
+├── NOTICE.md
 ├── CHANGELOG.md
 ├── .gitignore
 ├── .github/
@@ -45,10 +46,11 @@ Mechanics get fixed. Content gets flagged. Everything the editor supplies goes i
 │       └── validate-skill.yml      # optional CI: frontmatter + link checks
 └── skills/
     └── transcript-proofreader/
-        ├── SKILL.md                             # the skill itself
-        ├── reference-einsohn-copyediting.md     # loaded on demand
-        ├── reference-hill-king-oral-history.md  # loaded on demand
-        └── reference-saller-editorial-relations.md
+        ├── SKILL.md                                 # the skill itself
+        └── references/                              # loaded on demand
+            ├── reference-einsohn-copyediting.md
+            ├── reference-hill-king-oral-history.md
+            └── reference-saller-editorial-relations.md
 ```
 
 The three reference files are **progressive disclosure**: `SKILL.md` stays small enough to sit in context permanently, and the agent reads a reference only when the situation calls for it.
@@ -58,7 +60,7 @@ The three reference files are **progressive disclosure**: `SKILL.md` stays small
 ### Claude Code
 
 ```bash
-git clone https://github.com/<your-username>/transcript-proofreader.git
+git clone https://github.com/ariel-lee-1023/transcript-proofreader.git
 mkdir -p ~/.claude/skills
 cp -r transcript-proofreader/skills/transcript-proofreader ~/.claude/skills/
 ```
@@ -79,7 +81,7 @@ Then upload under **Settings → Capabilities → Skills**.
 
 ### Claude Agent SDK / API
 
-Point your skills directory at `skills/` and load `transcript-proofreader`. The reference files must sit alongside `SKILL.md` — the relative links in the skill depend on it.
+Point your skills directory at `skills/` and load `transcript-proofreader`. Keep `references/` beside `SKILL.md` — the relative links in the skill resolve from the skill's own directory.
 
 ## Usage
 

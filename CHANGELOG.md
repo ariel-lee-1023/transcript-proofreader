@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Moved the three reference files into `skills/transcript-proofreader/references/`,
+  per the Agent Skills convention. The routing table in `SKILL.md` and the layout
+  block in `README.md` follow the new paths; no file contents changed.
+
+### Fixed
+
+- `validate-skill.yml` sat at the repository root, where GitHub Actions never runs
+  it, while `README.md` already documented it at `.github/workflows/`. Moved there.
+- The `git clone` command in the README used a `<your-username>` placeholder and
+  failed on copy-paste; it and the changelog links now point at the real repository.
+- Added the `.gitignore` the layout block already listed.
+- The layout block omitted `NOTICE.md`.
+
 ### Planned
 
 - A companion confusion-patterns table as a fourth reference file, keyed by domain
@@ -37,5 +52,5 @@ Initial public release.
 - `reference-hill-king-oral-history.md` — bracket conventions, speaker authority, session metadata, topic ordering
 - `README.md`, `LICENSE` (MIT), `.gitignore`, and an optional skill-validation workflow
 
-[Unreleased]: https://github.com/<your-username>/transcript-proofreader/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/<your-username>/transcript-proofreader/releases/tag/v1.0.0
+[Unreleased]: https://github.com/ariel-lee-1023/transcript-proofreader/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ariel-lee-1023/transcript-proofreader/releases/tag/v1.0.0
