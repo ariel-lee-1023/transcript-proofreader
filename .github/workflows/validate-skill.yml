@@ -27,14 +27,14 @@ jobs:
           import yaml
 
           errors = []
-          root = pathlib.Path("skills")
+          root = pathlib.Path.cwd()
 
-          skills = sorted(root.glob("*/SKILL.md"))
-          if not skills:
-              sys.exit("No SKILL.md found under skills/")
+          skills = [root / "SKILL.md"]
+          if not skills[0].is_file():
+              sys.exit("No SKILL.md found at repository root")
 
           for skill in skills:
-              rel = skill.as_posix()
+              rel = skill.relative_to(root).as_posix()
               text = skill.read_text(encoding="utf-8")
 
               # --- frontmatter ---
@@ -97,8 +97,10 @@ jobs:
 
       - name: Zip skill directory
         run: |
-          cd skills
-          zip -r ../transcript-proofreader.zip transcript-proofreader
+          git archive --format=zip --prefix=transcript-proofreader/ \
+            --output=transcript-proofreader.zip HEAD \
+            SKILL.md AGENTS.md liu-zhongjing-confusion-patterns.md references \
+            README.md LICENSE NOTICE.md CHANGELOG.md
 
       - name: Attach to release
         uses: softprops/action-gh-release@v2
