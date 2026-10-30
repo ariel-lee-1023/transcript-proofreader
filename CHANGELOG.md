@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-10-30 — Organize experience-based references
+
+- Moved the unchanged Liu Zhongjing confusion-pattern table into `references/experience-based/` at the user's request.
+- Updated core/agent links, README diagrams, validation records and release packaging; retained one canonical copy and Ariel Lee attribution.
+
+
 ### 2026-10-30 — Continued source distillation
 
 - Deepened all three book references with numerical ambiguity, corpus evidence, author-return cleanup, Saller's five file-management practices and her complete dangerous-manuscript sequence.

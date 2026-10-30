@@ -9,7 +9,7 @@
     "fidelity-ledger/coverage-audit.md",
     "fidelity-ledger/evaluation.md",
     "fidelity-ledger/source-and-coverage-ledger.md",
-    "liu-zhongjing-confusion-patterns.md",
+    "references/experience-based/liu-zhongjing-confusion-patterns.md",
     "references/reference-einsohn-copyediting.md",
     "references/reference-hill-king-oral-history.md",
     "references/reference-saller-editorial-relations.md"
@@ -17,13 +17,13 @@
   "experience_rows": 45,
   "discovery": ".agents/skills/transcript-proofreader",
   "runtime_sha256": {
-    "SKILL.md": "4da606908fa1a5d8a8d39321a011ae5f0f4d38ebfa0c4b4ac696b17a8a64fe36",
+    "SKILL.md": "955cc36ce4415c0982c355f94f9a2899e17eafe00c8b417b2361d92664168f6b",
     "references/reference-einsohn-copyediting.md": "64aa670c2fc6e3f155dca2c4cacf5ccc519cdac19bac4997afd7702ed1aac41b",
     "references/reference-hill-king-oral-history.md": "f1b7ea8c94c86c71dbf3b250ad0b378ad4c657b2bdfb6749122d26026fc9ca8b",
     "references/reference-saller-editorial-relations.md": "68bc4156ff122061d5ca545c852f605149492d145b8acbcc412a53c0ffd68c21",
-    "liu-zhongjing-confusion-patterns.md": "ec544c095703d4ced377ad6f82d33923001a8c5e30234bb08bc76d6f19baa138"
+    "references/experience-based/liu-zhongjing-confusion-patterns.md": "ec544c095703d4ced377ad6f82d33923001a8c5e30234bb08bc76d6f19baa138"
   },
-  "upstream_status": "existing_architecture_exceptions",
+  "upstream_status": "user_requested_layout_exception",
   "scans": {
     "core": [],
     "references": [],
@@ -32,10 +32,10 @@
   "behavioral_acceptance": "unrun",
   "validator_sha256": "e595a159427549943b71c33ef866eb8c7f861c35ad2d79498b8a584d740f96d6",
   "upstream_raw": {
-    "errors": [],
-    "warnings": [
-      "liu-zhongjing-confusion-patterns.md — unexpected file at the skill root; the contract is SKILL.md plus a references/ directory"
+    "errors": [
+      "references/experience-based/ — references/ holds one flat reference file per book; no per-book folders"
     ],
+    "warnings": [],
     "facts": {
       "skill_root": ".",
       "discovery_entry": ".agents/skills/transcript-proofreader",
@@ -47,7 +47,7 @@
           "Copyright (c) 2026 Ariel Lee"
         ]
       },
-      "master_body_tokens": 3471,
+      "master_body_tokens": 3485,
       "master_budget": 3175,
       "master_capabilities": 5,
       "references": {
@@ -79,8 +79,8 @@
       "books": 3
     }
   },
-  "upstream_exit_code": 0,
-  "accepted_existing_architecture_deviations": [
-    "liu-zhongjing-confusion-patterns.md — unexpected file at the skill root; the contract is SKILL.md plus a references/ directory"
+  "upstream_exit_code": 1,
+  "accepted_user_requested_layout_deviations": [
+    "references/experience-based/ — references/ holds one flat reference file per book; no per-book folders"
   ]
 }

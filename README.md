@@ -52,7 +52,7 @@ git clone https://github.com/ariel-lee-1023/transcript-proofreader.git \
 
 For a host configured to use `~/.claude/skills`, use that directory instead. Follow the host's actual discovery configuration; a clone is not proof of activation. For project use, open this repository: `.agents/skills/transcript-proofreader` is a relative symlink to its root. Hosts without symlink support can load the root [SKILL.md](SKILL.md) directly.
 
-Keep `SKILL.md`, `references/` and `liu-zhongjing-confusion-patterns.md` together. An SDK or custom loader should grant the core access to these relative paths. The runtime is Markdown; no Python package is needed for ordinary use. The maintainer checker uses Python 3 and, for complete upstream checks, a local Books-to-Skill-Refs checkout.
+Keep `SKILL.md` and the complete `references/` tree together, including `experience-based/liu-zhongjing-confusion-patterns.md`. An SDK or custom loader should grant the core access to these relative paths. The runtime is Markdown; no Python package is needed for ordinary use. The maintainer checker uses Python 3 and, for complete upstream checks, a local Books-to-Skill-Refs checkout.
 
 The principal book corpus is English, so the core declares **English as the default explanation language**, overridden by explicit user or project preferences. Corrected Chinese transcripts remain Chinese. Request Chinese explanations explicitly when wanted; the Chinese output headings and proofreading conventions are retained.
 
@@ -81,7 +81,7 @@ flowchart LR
     alias[".agents/skills/transcript-proofreader"] -.->|Discovery symlink| root["Repository root"]
     root --> core["SKILL.md"]
     core -->|Task triggers| refs["references/ — three books"]
-    core -->|Liu Zhongjing job| experience["liu-zhongjing-confusion-patterns.md"]
+    core -->|Liu Zhongjing job| experience["references/experience-based/<br/>liu-zhongjing-confusion-patterns.md"]
     root --> agents["AGENTS.md — project defaults"]
     root --> ledger["fidelity-ledger/ — maintenance only"]
     root --> ci[".github/ — existing CI"]
@@ -92,13 +92,13 @@ flowchart LR
 ```
 
 - [SKILL.md](SKILL.md): reasoning, record types, evidence rules, continuity and source loading.
-- [references/](references/): one canonical distillation for each book.
-- [liu-zhongjing-confusion-patterns.md](liu-zhongjing-confusion-patterns.md): Ariel Lee's 45 numbered candidate/spelling entries and terminology cues, retained at the established root path.
+- [references/](references/): three canonical book distillations and a separate `experience-based/` folder for practitioner experience.
+- [liu-zhongjing-confusion-patterns.md](references/experience-based/liu-zhongjing-confusion-patterns.md): Ariel Lee's 45 numbered candidate/spelling entries and terminology cues, stored under `references/experience-based/` to distinguish practitioner experience from book distillations.
 - [AGENTS.md](AGENTS.md): project discovery and workflow instructions.
 - [fidelity-ledger/](fidelity-ledger/): source provenance, coverage, reading, evaluation and validation records; not a runtime reference directory.
 - [CHANGELOG.md](CHANGELOG.md), [NOTICE.md](NOTICE.md), [LICENSE](LICENSE) and [.github/workflows/validate-skill.yml](.github/workflows/validate-skill.yml): existing project documentation and CI.
 
-The existing repository architecture is preserved, including the root-level companion table and CI directory. Book references load on demand; ordinary proofreading does not load the ledger.
+The experience table has one canonical copy under `references/experience-based/`; the root skill and CI directory are retained. Book references load on demand; ordinary proofreading does not load the ledger.
 
 ## Sources and their responsibilities
 
@@ -125,7 +125,7 @@ flowchart LR
 | Amy Einsohn and Marilyn Schwartz, *The Copyeditor's Handbook: A Guide for Book Publishing and Corporate Communications*, 4th ed., University of California Press, 2019 | [Reference](references/reference-einsohn-copyediting.md): levels, FIQ, 4 Cs, triage, queries, style sheets, spoken/written quotations, numerical ambiguity, usage evidence and returned-copy cleanup |
 | Carol Fisher Saller, *The Subversive Copy Editor: Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues, and Yourself)*, University of Chicago Press, 2009 | [Reference](references/reference-saller-editorial-relations.md): carefulness, transparency, flexibility; author relations; dangerous manuscripts; file/version practices; deadline and handoff judgment |
 | Ruth Edmonds Hill and Patricia Miller King, eds., *Guide to the Transcripts of the Black Women Oral History Project*, Meckler, 1991, copyright Radcliffe College | [Reference](references/reference-hill-king-oral-history.md): oral-account framing, the project's narrator review, finding-aid limits, bracket convention and sampled identity/access descriptions |
-| **Ariel Lee**, personal proofreading experience compilation, authorship confirmed 2026-10-30 | [Experience table](liu-zhongjing-confusion-patterns.md): Liu Zhongjing transcript candidates. Not authored or endorsed by Liu Zhongjing, not a fourth book, and not a calibrated error model |
+| **Ariel Lee**, personal proofreading experience compilation, authorship confirmed 2026-10-30 | [Experience table](references/experience-based/liu-zhongjing-confusion-patterns.md): Liu Zhongjing transcript candidates. Not authored or endorsed by Liu Zhongjing, not a fourth book, and not a calibrated error model |
 
 The guide is a finding aid, not a transcription manual. Its narrator-review procedure is not universal final authority, and its topic summaries do not establish the order of unseen interviews. The handbook's heavy publishing edits permit more intervention than this transcript skill. Saller's deference to authors coexists with addressing consequential reader problems. These differences remain visible rather than being collapsed into one alleged shared rule.
 
@@ -137,7 +137,7 @@ The 2026-10-30 revision deepened the existing three references using bounded rea
 
 See [source and coverage ledger](fidelity-ledger/source-and-coverage-ledger.md), [coverage audit](fidelity-ledger/coverage-audit.md), [reading report](fidelity-ledger/reading-report.json), [validation](fidelity-ledger/validation.json) and [evaluation status](fidelity-ledger/evaluation.md). A frozen [acceptance suite](fidelity-ledger/acceptance-suite.json) supports later baseline/core/core-plus-references comparisons. **Independent model behavioral acceptance has not been run**; source review and structural checks do not demonstrate improved accuracy.
 
-The upstream published-layout validator is run unchanged and its raw result retained. The first run rejected the existing CI directory; the metatool validator changed independently during this session and its final run accepts CI and supporting documentation. The established root-level experience table still produces a layout warning. The repository-specific check records exact architectural exceptions and still fails on new or unrelated errors. It also checks runtime links, the discovery symlink, the 45 row identities, attribution and content hashes. It does not claim the upstream profile passed without exceptions. See [validate_repository.py](fidelity-ledger/validate_repository.py) and [repository check results](fidelity-ledger/repository-validation.json).
+The upstream published-layout validator is run unchanged and its raw result retained. Its flat-book layout rejects subfolders under `references/`; the user explicitly requested `references/experience-based/` for practitioner experience. The repository checker accepts only that exact layout exception and checks the folder contents, core routing, links, discovery symlink, 45 row identities, attribution and runtime hashes. Other errors still fail validation. See [validate_repository.py](fidelity-ledger/validate_repository.py) and [repository check results](fidelity-ledger/repository-validation.json).
 
 ## Limits
 

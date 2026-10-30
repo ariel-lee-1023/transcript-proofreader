@@ -103,7 +103,7 @@ jobs:
         run: |
           git archive --format=zip --prefix=transcript-proofreader/ \
             --output=transcript-proofreader.zip HEAD \
-            SKILL.md AGENTS.md liu-zhongjing-confusion-patterns.md references \
+            SKILL.md AGENTS.md references \
             README.md LICENSE NOTICE.md CHANGELOG.md fidelity-ledger .agents .gitignore
 
       - name: Attach to release
