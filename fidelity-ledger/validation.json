@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "warnings": [
+    "liu-zhongjing-confusion-patterns.md — unexpected file at the skill root; the contract is SKILL.md plus a references/ directory"
+  ],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/transcript-proofreader",
+    "layout": "published-repo",
+    "license": {
+      "spdx_id": "MIT",
+      "standard_text": true,
+      "copyright_notices": [
+        "Copyright (c) 2026 Ariel Lee"
+      ]
+    },
+    "master_body_tokens": 3471,
+    "master_budget": 3175,
+    "master_capabilities": 5,
+    "references": {
+      "reference-einsohn-copyediting.md": {
+        "tokens": 6333,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 15,
+        "budget": 9109
+      },
+      "reference-hill-king-oral-history.md": {
+        "tokens": 3259,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 4,
+        "budget": 8122
+      },
+      "reference-saller-editorial-relations.md": {
+        "tokens": 5016,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 11,
+        "budget": 8275
+      }
+    },
+    "books": 3
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "sources": {
+    "einsohn": {
+      "lines": 26207,
+      "output_budget": 9109
+    },
+    "saller": {
+      "lines": 4897,
+      "output_budget": 8275
+    },
+    "hill": {
+      "lines": 8033,
+      "output_budget": 6300
+    }
+  },
+  "reads": [
+    {
+      "source": "einsohn",
+      "start": 10240,
+      "end": 10324,
+      "tokens": 1224,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 9470,
+      "end": 9535,
+      "tokens": 940,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 10138,
+      "end": 10208,
+      "tokens": 920,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 3524,
+      "end": 3632,
+      "tokens": 1667,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 3992,
+      "end": 4065,
+      "tokens": 1357,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "hill",
+      "start": 90,
+      "end": 155,
+      "tokens": 467,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "hill",
+      "start": 360,
+      "end": 455,
+      "tokens": 1239,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "hill",
+      "start": 584,
+      "end": 680,
+      "tokens": 809,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "hill",
+      "start": 1085,
+      "end": 1157,
+      "tokens": 802,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "hill",
+      "start": 918,
+      "end": 964,
+      "tokens": 494,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 1958,
+      "end": 2030,
+      "tokens": 1040,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 2295,
+      "end": 2407,
+      "tokens": 1658,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 2695,
+      "end": 2765,
+      "tokens": 1031,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 2807,
+      "end": 2875,
+      "tokens": 947,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 3220,
+      "end": 3315,
+      "tokens": 1431,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 3452,
+      "end": 3510,
+      "tokens": 821,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 2875,
+      "end": 2972,
+      "tokens": 1525,
+      "reason": "verification",
+      "question": "Which remaining collision-insurance practices follow labels/folders and trial setup?",
+      "resolution": "Completed the five named practices; the one-line overlap preserved section continuity."
+    },
+    {
+      "source": "saller",
+      "start": 3850,
+      "end": 3918,
+      "tokens": 1013,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "saller",
+      "start": 1550,
+      "end": 1607,
+      "tokens": 789,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 1070,
+      "end": 1118,
+      "tokens": 692,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 19995,
+      "end": 20065,
+      "tokens": 1090,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 20510,
+      "end": 20548,
+      "tokens": 646,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 10320,
+      "end": 10345,
+      "tokens": 389,
+      "reason": "verification",
+      "question": "How does the quotation chapter qualify grammar/filler cleanup and what happens when cleanup is insufficient?",
+      "resolution": "The overlapping five lines establish conditional publisher practice; subsequent lines prohibit meaning changes and distinguish paraphrase."
+    },
+    {
+      "source": "saller",
+      "start": 1556,
+      "end": 1618,
+      "tokens": 882,
+      "reason": "verification",
+      "question": "Does Saller require unconditional deference, or permit firmness about consequential errors?",
+      "resolution": "Chapter 4 explicitly distinguishes harmless style restorations from remaining substantive reader problems; retained in Ch.4 qualification."
+    },
+    {
+      "source": "hill",
+      "start": 1190,
+      "end": 1207,
+      "tokens": 165,
+      "reason": "targeted source verification and coverage expansion"
+    },
+    {
+      "source": "einsohn",
+      "start": 4058,
+      "end": 4083,
+      "tokens": 433,
+      "reason": "verification",
+      "question": "Does usage frequency need sense and corpus-composition checks?",
+      "resolution": "The corpus footnote supplies a counterexample from a nautical sense; retained as caution against frequency-only decisions."
+    }
+  ],
+  "scope": "Source-local line spans for targeted reads during this revision. Metadata/frontmatter probes and grep hit lists are excluded from semantic-read accounting. Counts estimate emitted cleaned input; some combined tool outputs were truncated, so line coverage is an upper bound, not proof that every emitted line was seen."
+}

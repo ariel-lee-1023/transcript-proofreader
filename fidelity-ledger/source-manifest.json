@@ -1,0 +1,58 @@
+{
+  "revision": "2026-10-30",
+  "source_language": "English",
+  "basis": "All three supplied substantive book texts are English. Chinese experience data supports Chinese transcription; original transcript language is preserved. Explicit user/project language preferences override the explanation default.",
+  "files": [
+    {
+      "filename": "Guide to the transcripts of the Black women oral history project sponsored by the Arthur and Elizabeth Schlesinger Library on… (Ruth Edmonds Hill  Patricia Miller King etc.).pdf",
+      "sha256": "45a85c959a328b1a55df0a78ac2ad82bd0ab46117ddd4dc8a552921354c50ad9",
+      "bytes": 8002144,
+      "used_for_semantic_reading": false,
+      "role": "paired PDF inventoried and hashed only; not independently read"
+    },
+    {
+      "filename": "Guide-to-the-transcripts-of-the-Black-women-oral-history-project-sponsored-by-th.md",
+      "sha256": "65cf57eeb1f29bf72f4ff88ee5508c31759bcff9f69a266632ddf593f0c759e5",
+      "bytes": 377273,
+      "used_for_semantic_reading": true,
+      "lines": 8033,
+      "scan_label_count": 175,
+      "last_scan_label": 176,
+      "quality": "OCR-derived Markdown; broken lines/table cells; text slices checked, PDF facsimile not independently inspected"
+    },
+    {
+      "filename": "The Copyeditors Handbook A Guide for Book Publishing and Corporate Communications (Amy Einsohn, Marilyn Schwartz).pdf",
+      "sha256": "5749dd3fbb60e76cf96ca44ba3297389ba4c39aea3599fd8c1b0241f787f9f69",
+      "bytes": 26548950,
+      "used_for_semantic_reading": false,
+      "role": "paired PDF inventoried and hashed only; not independently read"
+    },
+    {
+      "filename": "The Subversive Copy Editor Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues,… (Carol Fisher Saller).pdf",
+      "sha256": "598a43b7f6dff3950686912ec25b576cb5ffa5ff25df74ca8cce251c2a457d88",
+      "bytes": 923987,
+      "used_for_semantic_reading": false,
+      "role": "paired PDF inventoried and hashed only; not independently read"
+    },
+    {
+      "filename": "The-Copyeditors-Handbook-A-Guide-for-Book-Publishing-and-Corporate-Communication.md",
+      "sha256": "0135c8192a7124a56c87e779bd7e76210d4d03f215aae9401948b743bef3f7e8",
+      "bytes": 1708822,
+      "used_for_semantic_reading": true,
+      "lines": 26207,
+      "scan_label_count": 564,
+      "last_scan_label": 565,
+      "quality": "OCR-derived Markdown; broken lines/table cells; text slices checked, PDF facsimile not independently inspected"
+    },
+    {
+      "filename": "The-Subversive-Copy-Editor-Advice-from-Chicago-or-How-to-Negotiate-Good-Relation.md",
+      "sha256": "a30a9d207e3364dee752582fff5265f67ec80928aa90bb0697877fcaf0f3f523",
+      "bytes": 280125,
+      "used_for_semantic_reading": true,
+      "lines": 4897,
+      "scan_label_count": 151,
+      "last_scan_label": 152,
+      "quality": "OCR-derived Markdown; broken lines/table cells; text slices checked, PDF facsimile not independently inspected"
+    }
+  ]
+}

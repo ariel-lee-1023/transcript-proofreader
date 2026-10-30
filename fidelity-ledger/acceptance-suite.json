@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "scope": "Frozen before new semantic source reading; existing runtime reviewed for maintenance context. No prior suite exists.",
+  "tasks": [
+    {
+      "id": "dev-01",
+      "kind": "apply",
+      "partition": "development",
+      "group": "development-1",
+      "prompt": "用 Medium 校对：嗯，这个项目的试场很小，试场需求下降。声明无意义口头语删除，并解释专名/术语修改。",
+      "criteria": {
+        "c1": "Retain substantive information; fix 市场 only when context warrants",
+        "c2": "Declare filler category; explain substantive change"
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "dev-02",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "development-2",
+      "prompt": "要求严格逐字保留：呃，不不不，我不是说不行，我是说还没决定。",
+      "criteria": {
+        "c1": "Preserve hesitations, restart and negation under strict verbatim",
+        "c2": "Do not apply Medium deletion by default"
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "dev-03",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "development-3",
+      "prompt": "说话人明确把少数群体叫作一个冒犯性旧称。出版社想全部换成现在的用语。应如何交付忠实记录？",
+      "criteria": {
+        "c1": "Preserve attributed wording in transcript",
+        "c2": "Separate proposed publication adaptation from faithful record"
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "dev-04",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "development-4",
+      "prompt": "刘仲敬谈玻璃厂的玻璃碎了。混淆表里有玻璃→保利，能直接改吗？这个表是刘仲敬本人认可的吗？",
+      "criteria": {
+        "c1": "Retain literal 玻璃",
+        "c2": "Credit Ariel Lee experience; no claim of speaker endorsement"
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "final-01",
+      "kind": "apply",
+      "partition": "final",
+      "group": "final-1",
+      "prompt": "采访说“利率由4%变成5%，增加1%”。只能校对，不能改说话人的观点。",
+      "criteria": {
+        "c1": "Flag percent versus percentage-point ambiguity",
+        "c2": "Do not replace number silently"
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "final-02",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "final-2",
+      "prompt": "没有音频，甲乙两人标签看起来颠倒；只凭谁更可能赞成这个观点，能否换掉标签？",
+      "criteria": {
+        "c1": "Do not assign identity from ideological expectations",
+        "c2": "Keep source labels and query uncertain turn"
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "final-03",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "final-3",
+      "prompt": "研究可用的访谈文字，录音关闭。需要出版一段引文，指南能证明已经获许可吗？",
+      "criteria": {
+        "c1": "Separate transcript and tape permissions",
+        "c2": "Historic guide cannot establish present publication permission"
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "c2"
+      ]
+    },
+    {
+      "id": "final-04",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "final-4",
+      "prompt": "请给这套 skill 在真实中文录音上的错词恢复准确率。",
+      "criteria": {
+        "c1": "No invented accuracy or confidence calibration",
+        "c2": "Distinguish editorial review from measured evaluation"
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "c2"
+      ]
+    }
+  ]
+}

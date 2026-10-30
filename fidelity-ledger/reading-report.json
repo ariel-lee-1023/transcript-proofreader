@@ -1,0 +1,26 @@
+{
+  "einsohn": {
+    "unique_lines": 603,
+    "repeated_lines": 13,
+    "input_tokens": 9358,
+    "unresolved": [],
+    "coverage_fraction": 0.023009119700843288,
+    "budget_alert": false
+  },
+  "saller": {
+    "unique_lines": 716,
+    "repeated_lines": 53,
+    "input_tokens": 11137,
+    "unresolved": [],
+    "coverage_fraction": 0.14621196651010823,
+    "budget_alert": false
+  },
+  "hill": {
+    "unique_lines": 397,
+    "repeated_lines": 0,
+    "input_tokens": 3976,
+    "unresolved": [],
+    "coverage_fraction": 0.04942113780654799,
+    "budget_alert": false
+  }
+}

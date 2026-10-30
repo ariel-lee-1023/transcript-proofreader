@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-10-30 — Continued source distillation
+
+- Deepened all three book references with numerical ambiguity, corpus evidence, author-return cleanup, Saller's five file-management practices and her complete dangerous-manuscript sequence.
+- Corrected overclaims about narrator authority and interview topic sequence; distinguished a finding aid's explicit rules from sampled conventions and skill adaptations.
+- Credited the Liu Zhongjing confusion table to Ariel Lee's experience, preserving all 45 row identities and candidate pairs while qualifying semantic reconstructions and unsupported frequency/confidence claims.
+- Reworked the core around evidence, strict-verbatim exceptions, whole-job continuity and traceable delivery; preserved project-specific cleanup, Liu-table reporting and paired Word/PDF requirements.
+- Expanded CI to check repository links, discovery and stable experience row IDs; include ledger/discovery in release bundles and enable the existing tag-release job on version tags.
+- Added source, coverage, reading and evaluation records under `fidelity-ledger/`; behavioral acceptance remains unrun without a configured independent model runner.
+- Updated README introduction, loading maps and source responsibilities; kept the existing root-level companion-file architecture.
+
+
 ### Changed
 
 - **Flattened to the repository root.** `SKILL.md` and `references/` now sit at the
@@ -29,7 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Planned
 
-- A companion confusion-patterns table as a fourth reference file, keyed by domain
 - Worked before/after examples for each edit level
 - Coverage for speaker-diarization errors (turns attributed to the wrong speaker)
 

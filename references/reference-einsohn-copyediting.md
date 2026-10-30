@@ -1,6 +1,8 @@
 # The Copyeditor's Handbook: A Guide for Book Publishing and Corporate Communications (4th ed., 2019) — Amy Einsohn and Marilyn Schwartz
 
-**Format**: md (OCR of print) | **Pages**: ~513 | **Sections**: 15 chapters in 3 parts | **Depth**: study
+**Format**: md (OCR of print) | **Pages**: supplied scan labels through 565 (not 565 pages of main text) | **Sections**: 15 chapters in 3 parts | **Depth**: study
+
+**Source locators:** Chapter and printed-page references below refer to the supplied fourth edition. The source is OCR-derived Markdown; extracted scan labels and printed pagination differ. Source-local line spans and qualification checks are recorded in the maintainer ledger. This is a transcript-focused selection, not complete coverage of all fifteen chapters.
 
 ## Mental Model (read first)
 
@@ -31,6 +33,7 @@ Copyediting is a craft of *calibrated restraint*, not of correction. The editor 
   - *Light*: enforce mechanical consistency; correct only indisputable errors of grammar/syntax/usage; **point out** wordy or convoluted patches but do not revise; query factual inconsistencies.
   - *Medium*: correct all errors of grammar/syntax/usage; point out or revise infelicities; **supply suggested revisions** for convoluted patches; verify content against standard references; query faulty organization and gaps in logic.
   - *Heavy*: correct errors *and infelicities*; **rewrite** wordy or convoluted patches; verify and revise incorrect facts; fix faulty organization and logic gaps.
+  - **Transfer boundary:** these are the book's publishing categories. The transcript skill deliberately keeps even Heavy below silent content revision; strict-verbatim instructions override deletion or grammar normalization.
   - Note the real distinction across levels is not effort but **who does the rewriting** — at Light the author does, at Heavy the editor does.
 - **FIQ checklist** — an alternative scheme itemizing each problem type as **F**ix, **I**gnore, or **Q**uery, keyed to audience or publication type. In the book's worked table, the same issue routes differently by audience: minor grammar errors are *ignored* for in-house readers but *fixed* for public-facing copy; wordiness is *ignored* in-house, *queried* for high-visibility clients, *fixed* for the general public. **How**: build a small FIQ table for the job before starting; it converts vague "level" talk into per-category instructions.
 - **Stages-of-review scheme** — a third grid assigning principal vs. secondary emphasis by stage: early draft = audience suitability, organization, coherence; final draft = pacing, wordiness, punctuation, grammar; final copy = grammar and spelling only.
@@ -65,7 +68,7 @@ Copyediting is a craft of *calibrated restraint*, not of correction. The editor 
 ### Part 1, Ch. 1 — Professionalism and Ethics
 
 - **Do no harm** — cited as the first principle most editors name, though the book notes it is not from any actual editorial oath and is commonly misattributed to Hippocrates.
-- **95 percent accuracy** is about the ceiling of human error-catching; certification tests pass around 80 percent. Accuracy degrades further on error-riddled copy. Perfection is not the standard; consistency of attention is.
+- **Fallibility:** the chapter discusses human error-catching limits; these are not measured performance figures for this skill or for ASR. Use layered review and consistent attention without promising a detection rate.
 - **Plagiarism**: not the editor's job to validate originality, but on discovering irrefutable evidence, the editor is obliged to tell the publisher and recommend proper credit.
 
 ### Part 2, Ch. 8 — Quotations *(the chapter that matters most for transcript work)*
@@ -85,7 +88,35 @@ Copyediting is a craft of *calibrated restraint*, not of correction. The editor 
 - **Usage is fashion, and fashion turns.** The book's cases: *data* as plural vs. mass noun (defensible either way, decided by field and house style — or dodged by choosing a different word); sentence-adverb *hopefully*, denounced for decades and now largely accepted, with some editors still fighting a war that ended. **How**: when a usage is contested, decide by register, author preference, publisher brand, and likely reader reaction — not by which side is "right."
 - **Anti-pattern — deference to outdated authority**: the book explicitly cautions that many precepts in the most-quoted classroom style guide are oversimplified, outdated, or wrong, and that a century of subsequent language change has to be taken into account.
 - Beyond grammar, the editor's remit includes organization, point of view, expository style, **plain language compliance**, **accessibility**, **Global English**, **EFL/ESL editing**, **bias-free language**, and awareness of publishing law (libel, privacy, obscenity).
-- **Bias-free language** is a normal expectation of the copyeditor's role, not an optional extra: most publishers expect editors to help authors avoid inadvertent sexism and other biased language.
+- **Bias-free language** (ch. 15, pp. 435–445) asks editors to detect inadvertent stereotyping, marginalization and exclusion. The book explicitly distinguishes this from censoring authors' deliberate views. In a faithful transcript, query or explain a concern separately; do not substitute approved modern vocabulary for words actually spoken. A separately authorized publication adaptation can propose alternative wording. Terminology disputes are not always resolved by a single universally accepted replacement.
+
+### Part 1, Chs. 1–2 — Distinct stages and author-return cleanup
+
+**Locator:** pp. 12–14, 66–68. Copyediting acts on a manuscript; proofreading checks the approved copy's rendering after typesetting, formatting or conversion. Catching typos occurs in both, but doing one does not prove the other was done. For transcript files, comparing Word and exported PDF is a separate production check; it cannot verify unseen audio.
+
+**How to incorporate reviewed copy:** preserve the untouched author-returned file, make a working copy, and reconcile each insertion, deletion and restoration with the author's instructions. Read new text for mechanical correctness and apply the existing style sheet. Check sequential numbering, references to numbered items and ordering in lists after additions or deletions. Re-pose unanswered queries. Correct nondiscretionary mechanical faults, but obtain agreement for additional substantive changes at this late stage.
+
+**Delivery boundary:** remove resolved comments and revision artifacts from the final reading copy while preserving the review record. A clean-looking file with unresolved questions is still provisional. Source procedures include several paper and electronic review methods; they do not require a particular current software interface or automatic acceptance of all changes.
+
+### Part 1, Ch. 3 — Language corpora as evidence, not votes
+
+**Locator:** pp. 76–78. A **language corpus** is a searchable collection of real usage. It supplements a dictionary, a style manual, a thesaurus and a usage guide when these do not settle a question. Restrict evidence by period, regional English, genre, register and collocation before comparing forms. A distribution in academic prose can differ from that in speech without either being an error.
+
+**How:** formulate the disputed usage precisely; compare matched contexts; inspect actual examples rather than relying only on frequency; then weigh audience and house style. Corpora can reveal changing usage, but a spike may reflect a different word sense, OCR damage or the corpus's composition. The book's footnote on a nautical sense inflating apparent excrement references is a warning against reading graphs without concordances. Do not turn usage frequency into evidence of what a specific speaker said. Historical corpus sizes and websites in this edition are not current service specifications.
+
+### Part 2, Ch. 7 — Numerical distinctions that change the claim
+
+**Locator:** pp. 194–196, 208–210. **Percent** expresses a proportion or relative change; **percentage points** express subtraction between percentages; **basis points** are hundredths of a percentage point. **Percentile** describes position in a distribution, not the percentage of questions answered correctly. The chapter also distinguishes a share of one income stream from its absolute monetary amount.
+
+**How:** identify the quantity, base, unit, direction and interval before changing notation. For a relative increase with a nonzero baseline, compare the difference with that baseline; do not confuse it with subtraction of rates. Missing baselines and expressions such as “times faster,” “times less,” or “underestimated by” may permit different interpretations. In authored exposition the book recommends clearer wording. In a transcript, retain the speaker's claim and query the ambiguity rather than making the arithmetic or interpretation silently agree. Percent-change shortcuts assume suitable positive quantities and are not universal identities for negative or zero baselines.
+
+**Anti-pattern:** treating every numeral issue as style. Changing percent to percentage points, a date, an amount, or the unit may alter content even if one alternative is mathematically more plausible. Consistency means matching comparable classes, not forcing technical measurements and narrative dates into one format.
+
+### Part 2, Ch. 8 — When quotation cleanup runs out of permission
+
+**Locator:** pp. 211–214. The allowance to remove hesitations or repair minor grammar is conditional on publisher practice and unchanged meaning, not a mandate to make all oral language grammatical. A speaker's explicit correction may establish the final number or name; a guess about the speaker's intended correction does not.
+
+For hopelessly tangled quotations in an article, the book permits **paraphrase as paraphrase**, with attribution. This is not permission to present rewritten prose as direct speech. In transcript work, keep a faithful record and distinguish any requested summary or publication adaptation. When an interview contains a quotation from print, separate the fidelity of the spoken rendition from the fidelity of the printed source; an external text does not silently replace the recording.
 
 ## Worked Example *(one for the whole book)*
 
@@ -96,6 +127,11 @@ But doing so silently converts a single "media and print advertising" department
 The resolution is not to pick the more likely reading, and not to leave the sentence alone either. It is to recognize that a mechanical change has crossed into meaning, and therefore to query: should this read "marketing, and media and print advertising," or "marketing, media, and print advertising"? The example is the book's cleanest demonstration of the rule that mechanical changes are exempt from querying **only until they touch meaning** — after which the exemption evaporates entirely, regardless of how routine the change looked.
 
 ## Decision Rules & Judgment
+
+- On returned revisions, reconcile from a preserved original; recheck new material and cross-references, and retain unresolved queries.
+- If a number edit changes the base, unit or claim, query it even when the arithmetic looks obvious.
+- Use corpus evidence only after checking register and sense; popularity does not restore speech.
+- Distinguish copyediting from proof checks of the rendered final document.
 
 - If you cannot say *why* a change helps the reader, don't make it. "It looks funny" and "it sounds funny" are not reasons.
 - When a mechanical change could alter meaning, query it — the routine-changes exemption does not apply.

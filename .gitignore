@@ -9,3 +9,11 @@
 
 # Packaged skill uploads
 *.zip
+
+# Local source and extraction material
+sources/
+_work/
+full_text.txt
+metadata.json
+__pycache__/
+*.pyc

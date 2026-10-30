@@ -1,6 +1,8 @@
 # The Subversive Copy Editor: Advice from Chicago (or, How to Negotiate Good Relationships with Your Writers, Your Colleagues, and Yourself) — Carol Fisher Saller
 
-**Format**: md (OCR of print) | **Pages**: ~129 | **Sections**: 11 chapters in 2 parts, plus appendix | **Depth**: study
+**Format**: md (OCR of print) | **Pages**: supplied scan labels through 152 | **Sections**: 11 chapters in 2 parts, plus appendix (2009 edition) | **Depth**: study
+
+**Source locators:** Chapters follow the supplied 2009 University of Chicago Press edition, not a later revision. Printed page locators accompany newly deepened sections; OCR line spans are in the maintainer ledger. Historical software examples are treated as examples, not current product instructions.
 
 ## Mental Model (read first)
 
@@ -45,15 +47,56 @@ Saller's subversion is a reordering of loyalties: the editor's first duty is not
 ### Ch. 4 — The Difficult Author
 
 - **Core idea**: Genuinely difficult authors — those who refuse changes and won't discuss them — are *rare*. Saller counts fewer than half a dozen in an entire career. Don't organize your practice around them.
-- **Counter-intuitive finding**: the *more* published the writer, the more tolerant and grateful they usually are — they already know what embarrassment editing prevents. The exception is the writer previously burned by bad editing.
+- **Author's practice observation, not a measured generalization**: the *more* published the writer, the more tolerant and grateful they usually are — they already know what embarrassment editing prevents. The exception is the writer previously burned by bad editing.
 - **The stance**: the task is not to diagnose the writer's insecurities but to produce the best result for the reader. When early signals suggest resistance, **escalate the precautions rather than the argument** — be extremely conservative in editing, limit expectations from the outset, and grant that the writer may understand their readership in ways you don't.
 - **Anti-pattern**: treating a writer's resistance as a challenge to professional honor.
 
-### Part Two, Chs. 6–10 — Working with Colleagues and with Yourself
+### Ch. 4 — Firmness without a power contest
 
-- **The dangerous manuscript** (Ch. 6): for long, tedious, structurally hazardous jobs — **automate** what can be automated; **delegate** where the structure permits; **reevaluate** honestly if you lack what the job requires.
-- **Know thy word processor** (Ch. 7): tool fluency is an editorial competence, not a side skill — it determines how much of the budget goes to drudgery instead of judgment.
-- **The living deadline** (Ch. 8), **managing work relationships** (Ch. 9), **the freelancer's quandaries** (Ch. 10): the deadline and the colleague network are treated as editorial problems on par with the text itself.
+**Locator:** pp. 35–36. Flexibility is not unconditional surrender. Accept harmless restorations and undo edits made only for eloquence; then explain the remaining reader problem precisely. Saller also describes enforcing genuinely required corrections within a publisher's authority. Her distinction is the merits of the issue versus wounded professional pride.
+
+**Transcript adaptation:** the editor can document a serious problem and ask for a resolution without silently falsifying direct speech. The source's publisher-author relationship does not give an assistant unlimited authority over testimony. Nor does a preference for speaker voice require concealing a known factual inconsistency. State the disagreement and the kind of output being prepared.
+
+### Ch. 5 — Dear Writers: protect the working copy
+
+**Locator:** pp. 46–48. Once editing has begun, untracked changes to an old manuscript create a merging problem: the returned replacement omits intervening editorial work and hides the author's small changes. Track revisions or send clearly located amendments, identify who holds the working copy, and flag major new material early enough to reassess review and timing.
+
+**How for serial transcripts:** retain the submitted chunk, the current edit and a clear list of user corrections. If a passage is resubmitted, compare it before replacing the current edit. A revised name can affect previous chunks, while a new argument is new content, not a mechanical correction. This application is the skill's synthesis, not an ASR procedure described by Saller.
+
+### Ch. 6 — The Dangerous Manuscript
+
+**Locator:** pp. 59–63. Danger comes from two directions: repetitive work encourages inattention; complicated work encourages haste or faulty automation. The book's sequence for tedious work is **automate, delegate, reevaluate**, with **accept your fate** as the fallback.
+
+- **Automate:** seek a reusable technique for a necessary repetitive task; inspect whether the operation is actually uniform before applying it.
+- **Delegate:** obtain appropriate agreement, define a bounded portion and retain oversight. Saller warns against passing off a substitute's work as one's own or losing control of electronic files. This is a description of an editorial option, not authorization to contact people or create agents.
+- **Reevaluate:** ask whether anyone needs to do the task. Is the material wrong or confusing, or merely styled differently? This does **not** mean simply giving up because a task exceeds one's ability.
+- **Accept your fate:** if the work is necessary and cannot be avoided, perform it attentively, potentially in smaller chunks. Exhausting the shortcuts does not make the obligation disappear.
+
+**Anti-pattern:** turning an uncertain word-inference task into bulk substitution because it recurs. Repetition of a problem does not make the solution mechanical.
+
+### Ch. 7 — Collision insurance: five ways to avoid the big crash
+
+**Locator:** pp. 74–78. Preserve the five-part structure: **Labels and folders; Trial runs; Version control; Transparency; Backup.**
+
+1. Keep originals distinct from working documents, with names that reveal their role.
+2. Test tricky or hard-to-undo operations on a clearly marked copy. Test copies themselves can be mistaken for current work; distinguish them visibly and avoid saving them over the master.
+3. Keep original, edited, author-reviewed and final states identifiable. Agree who owns the current working copy; simultaneous untracked edits create uncertainty even when both people are careful.
+4. Make files and their state intelligible to the next person. Remove hidden production debris from the final copy without erasing the review history.
+5. Keep recoverable backups. Versions stored only inside one file can disappear together with that file.
+
+The chapter's mistaken search-and-replace examples show why fluency with a tool is part of editorial care. A valid word may be turned into a different valid word that a spellchecker accepts. A domain-sensitive term, a proper name and a substring are especially poor candidates for blind replacement. Modern application commands must be verified separately; the book's historical menu behavior is not a specification.
+
+### Ch. 8 — The Living Deadline
+
+**Locator:** pp. 86–89. **Lists** hold the next actions, **schedules** show future dependencies and handoffs, and **logs** preserve what was completed. They answer different questions; one cannot replace the others. Update promises and dependencies when the work changes, and warn the responsible person when a delivery is endangered.
+
+**How for a long transcript:** record the processed span, the next span, unresolved identity questions and which user feedback has been incorporated. A completion log must not be mistaken for a plan, and a plan does not prove work was completed. The original describes human project coordination; reminders or messages require their own authorization.
+
+### Chs. 9–10 — Cooperation, reliability and honest scope
+
+**Locator:** pp. 92–94, 105–106. **Play nicely, and work through channels** is Saller's coordination rule. Name the concrete problem, timing and dependency without exaggeration or blame. Knowledge-sharing supports production; manipulating colleagues or promising on their behalf does not.
+
+For freelance overruns, distinguish the learning cost of routine work from genuinely unusual demands and from unnecessary perfectionism. Report a threatened estimate before it becomes a surprise. The book's fee-allocation suggestions are context-specific professional advice, not a billing policy for this skill. The transferable judgment is to make scope and actual progress visible and not disguise incomplete work as finished.
 
 ### Ch. 11 — The Zen of Copyediting
 
@@ -72,9 +115,14 @@ The lesson generalizes past cover letters: **when a disagreement is going to rec
 
 ## Decision Rules & Judgment
 
+- Preserve a known working copy; merge revisions visibly instead of replacing edited text with an untracked older version.
+- Before a global operation, run a trial on a distinct copy and inspect representative changes and exceptions.
+- Reevaluate whether a repetitive task is necessary; if necessary and unavoidable, complete it rather than quietly dropping it.
+- Keep next actions, future dependencies and completed work distinguishable.
+
 - First loyalty is to the reader; the route to the reader runs through the writer, so protect that relationship as an editorial asset.
 - Before objecting, classify: is this **style** (arbitrary, negotiable, defer freely) or **grammar** (stricter, defensible)? Most fights are the first mistaken for the second.
-- If the disagreement is style, the writer wins by default. Register the preference, then stet.
+- On harmless style preferences, defer and record the choice. If a real reader problem or an agreed production requirement remains, explain it and resolve it openly; deference is not silent abandonment of correctness.
 - Ask before you meddle; ask positively; ask *narrowly*, having done your own part first.
 - Silent changes are permitted where tracked markup would obscure more than it reveals — but disclose the class of change at first instance and keep a list.
 - When you'll make a change throughout, explain once at the first occurrence and apply it silently thereafter.
