@@ -17,7 +17,7 @@ import sys
 def check(root, book_tools=None):
     errors = []
     for rel in ('SKILL.md', 'AGENTS.md', 'README.md', 'LICENSE', '.gitignore',
-                'references/experience-based/liu-zhongjing-confusion-patterns.md', 'fidelity-ledger/source-manifest.json'):
+                'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md', 'fidelity-ledger/source-manifest.json'):
         if not (root / rel).is_file():
             errors.append('Missing ' + rel)
     core = (root / 'SKILL.md').read_text()
@@ -32,14 +32,14 @@ def check(root, book_tools=None):
     for ref in refs:
         if ref.relative_to(root).as_posix() not in core:
             errors.append('Unrouted reference: ' + ref.name)
-    experience_dir = root / 'references/experience-based'
+    experience_dir = root / 'references/ariel-experience-based-speaker-patterns'
     if (root / 'liu-zhongjing-confusion-patterns.md').exists():
         errors.append('Obsolete root experience-table copy remains')
     if sorted(p.name for p in experience_dir.iterdir()) != ['liu-zhongjing-confusion-patterns.md']:
         errors.append('Unexpected contents in the user-requested experience folder')
-    if 'references/experience-based/liu-zhongjing-confusion-patterns.md' not in core:
+    if 'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md' not in core:
         errors.append('Experience table is not routed from the core')
-    companion = (root / 'references/experience-based/liu-zhongjing-confusion-patterns.md').read_text()
+    companion = (root / 'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md').read_text()
     rows = [int(n) for n in re.findall(r'^\|\s*(\d+)\s*\|', companion, re.M)]
     if rows != list(range(1, 46)):
         errors.append('Experience rows must retain stable ordered IDs 1–45')
@@ -58,7 +58,7 @@ def check(root, book_tools=None):
             if target and not (path.parent / target).exists():
                 errors.append(f'{path.relative_to(root)}: broken link {target}')
         checked.append(path.relative_to(root).as_posix())
-    runtime = [root/'SKILL.md', *refs, root/'references/experience-based/liu-zhongjing-confusion-patterns.md']
+    runtime = [root/'SKILL.md', *refs, root/'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md']
     report = {'errors': errors, 'checked_markdown_files': sorted(checked),
               'experience_rows': len(rows), 'discovery': str(alias.relative_to(root)),
               'runtime_sha256': {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest() for p in runtime},
@@ -74,7 +74,7 @@ def check(root, book_tools=None):
         report['validator_sha256'] = hashlib.sha256((book_tools/'tools/validate_library.py').read_bytes()).hexdigest()
         report['upstream_raw'] = raw
         report['upstream_exit_code'] = proc.returncode
-        allowed_error = 'references/experience-based/ — references/ holds one flat reference file per book; no per-book folders'
+        allowed_error = 'references/ariel-experience-based-speaker-patterns/ — references/ holds one flat reference file per book; no per-book folders'
         allowed_warnings = set()
         deviations = []
         for issue in raw.get('errors', []):
@@ -91,7 +91,7 @@ def check(root, book_tools=None):
         report['upstream_status'] = 'user_requested_layout_exception' if deviations else 'pass'
         if proc.returncode and not raw.get('errors'):
             errors.append('Unexplained upstream nonzero exit')
-        for key, path in [('core', root/'SKILL.md'), ('references', root/'references'), ('experience', root/'references/experience-based/liu-zhongjing-confusion-patterns.md')]:
+        for key, path in [('core', root/'SKILL.md'), ('references', root/'references'), ('experience', root/'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md')]:
             scan = subprocess.run([sys.executable, str(book_tools/'tools/scan_generated_skill.py'), str(path), '--json', '--strict'], text=True, capture_output=True)
             try:
                 report['scans'][key] = json.loads(scan.stdout)

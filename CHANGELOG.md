@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-10-30 — Name Ariel's speaker-pattern collection
+
+- Renamed `references/experience-based/` to `references/ariel-experience-based-speaker-patterns/` to identify the contributor, experiential basis and speaker-specific scope.
+- Updated active loading paths, documentation and validation; the confusion-pattern file is unchanged.
+
+
 ### 2026-10-30 — Make clean oral-record cleanup an explicit default
 
 - Promoted the clean oral-record rule to its own section before edit levels, with Chinese and English filler examples, context-sensitive deletion, preservation of substantive information and rhetorical meaning, and an explicit strict-verbatim override.

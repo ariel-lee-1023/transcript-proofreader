@@ -1,6 +1,6 @@
 {
   "errors": [
-    "references/experience-based/ — references/ holds one flat reference file per book; no per-book folders"
+    "references/ariel-experience-based-speaker-patterns/ — references/ holds one flat reference file per book; no per-book folders"
   ],
   "warnings": [],
   "facts": {
@@ -14,7 +14,7 @@
         "Copyright (c) 2026 Ariel Lee"
       ]
     },
-    "master_body_tokens": 3718,
+    "master_body_tokens": 3730,
     "master_budget": 3525,
     "master_capabilities": 6,
     "references": {

@@ -56,3 +56,7 @@ All references stay below their computed planning budgets and hard caps; low len
 ## Subsequent user-requested relocation — 2026-10-30
 
 The user requested a dedicated folder inside `references/`. The experience table moved byte-for-byte from the root to `references/experience-based/liu-zhongjing-confusion-patterns.md`; its Ariel Lee attribution and 45 entries are unchanged. Core/agent links, README maps, release packaging and repository checks now use this canonical path. Earlier root-layout descriptions above record the preceding distillation pass. The generic validator's exact nested-folder diagnostic is accepted only as this explicit user-requested layout exception.
+
+## User-selected collection name — 2026-10-30
+
+The user selected Ariel's `experience-based-speaker-patterns` name. The canonical directory is now `references/ariel-experience-based-speaker-patterns/`, identifying Ariel Lee's experience-based collection for specific speakers. The Liu Zhongjing file is unchanged. Earlier paths above describe the repository's historical layout; active loading links and validation use the new path.

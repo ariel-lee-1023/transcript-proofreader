@@ -9,7 +9,7 @@
     "fidelity-ledger/coverage-audit.md",
     "fidelity-ledger/evaluation.md",
     "fidelity-ledger/source-and-coverage-ledger.md",
-    "references/experience-based/liu-zhongjing-confusion-patterns.md",
+    "references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md",
     "references/reference-einsohn-copyediting.md",
     "references/reference-hill-king-oral-history.md",
     "references/reference-saller-editorial-relations.md"
@@ -17,11 +17,11 @@
   "experience_rows": 45,
   "discovery": ".agents/skills/transcript-proofreader",
   "runtime_sha256": {
-    "SKILL.md": "be7961bbd3de1cd9f7b7829dff4c695a5daa297c6a1074cc937df878520e99a7",
+    "SKILL.md": "ae004dcab9cf0026af08cb53155c346e1f2be2aa6361e3805a28fbc8b3e399c3",
     "references/reference-einsohn-copyediting.md": "64aa670c2fc6e3f155dca2c4cacf5ccc519cdac19bac4997afd7702ed1aac41b",
     "references/reference-hill-king-oral-history.md": "f1b7ea8c94c86c71dbf3b250ad0b378ad4c657b2bdfb6749122d26026fc9ca8b",
     "references/reference-saller-editorial-relations.md": "68bc4156ff122061d5ca545c852f605149492d145b8acbcc412a53c0ffd68c21",
-    "references/experience-based/liu-zhongjing-confusion-patterns.md": "ec544c095703d4ced377ad6f82d33923001a8c5e30234bb08bc76d6f19baa138"
+    "references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md": "ec544c095703d4ced377ad6f82d33923001a8c5e30234bb08bc76d6f19baa138"
   },
   "upstream_status": "user_requested_layout_exception",
   "scans": {
@@ -33,7 +33,7 @@
   "validator_sha256": "e595a159427549943b71c33ef866eb8c7f861c35ad2d79498b8a584d740f96d6",
   "upstream_raw": {
     "errors": [
-      "references/experience-based/ — references/ holds one flat reference file per book; no per-book folders"
+      "references/ariel-experience-based-speaker-patterns/ — references/ holds one flat reference file per book; no per-book folders"
     ],
     "warnings": [],
     "facts": {
@@ -47,7 +47,7 @@
           "Copyright (c) 2026 Ariel Lee"
         ]
       },
-      "master_body_tokens": 3718,
+      "master_body_tokens": 3730,
       "master_budget": 3525,
       "master_capabilities": 6,
       "references": {
@@ -81,6 +81,6 @@
   },
   "upstream_exit_code": 1,
   "accepted_user_requested_layout_deviations": [
-    "references/experience-based/ — references/ holds one flat reference file per book; no per-book folders"
+    "references/ariel-experience-based-speaker-patterns/ — references/ holds one flat reference file per book; no per-book folders"
   ]
 }
