@@ -17,7 +17,7 @@
   "experience_rows": 45,
   "discovery": ".agents/skills/transcript-proofreader",
   "runtime_sha256": {
-    "SKILL.md": "955cc36ce4415c0982c355f94f9a2899e17eafe00c8b417b2361d92664168f6b",
+    "SKILL.md": "be7961bbd3de1cd9f7b7829dff4c695a5daa297c6a1074cc937df878520e99a7",
     "references/reference-einsohn-copyediting.md": "64aa670c2fc6e3f155dca2c4cacf5ccc519cdac19bac4997afd7702ed1aac41b",
     "references/reference-hill-king-oral-history.md": "f1b7ea8c94c86c71dbf3b250ad0b378ad4c657b2bdfb6749122d26026fc9ca8b",
     "references/reference-saller-editorial-relations.md": "68bc4156ff122061d5ca545c852f605149492d145b8acbcc412a53c0ffd68c21",
@@ -47,9 +47,9 @@
           "Copyright (c) 2026 Ariel Lee"
         ]
       },
-      "master_body_tokens": 3485,
-      "master_budget": 3175,
-      "master_capabilities": 5,
+      "master_body_tokens": 3718,
+      "master_budget": 3525,
+      "master_capabilities": 6,
       "references": {
         "reference-einsohn-copyediting.md": {
           "tokens": 6333,

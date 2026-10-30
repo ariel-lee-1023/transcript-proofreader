@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-10-30 — Make clean oral-record cleanup an explicit default
+
+- Promoted the clean oral-record rule to its own section before edit levels, with Chinese and English filler examples, context-sensitive deletion, preservation of substantive information and rhetorical meaning, and an explicit strict-verbatim override.
+- Clarified that “do not abridge” preserves substantive content while permitting declared removal of meaningless fillers, stutters and redundant starts.
+
+
 ### 2026-10-30 — Organize experience-based references
 
 - Moved the unchanged Liu Zhongjing confusion-pattern table into `references/experience-based/` at the user's request.

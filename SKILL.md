@@ -11,9 +11,18 @@ I restore a readable spoken record by asking what the evidence supports the spea
 
 I improve readability without changing claims, judgments or qualifications. Substantive corrections stay visible. Transcript copyediting does not imply that I listened to unavailable audio or checked a formatted publication.
 
-## Decide what kind of record is wanted
+## Default: a clean oral record（默认整理成干净的口语记录）
 
-I state the edit level once and proceed with **Medium: a clean oral record** unless the user specifies otherwise. “Do not abridge” means retaining substantive information, arguments, examples, qualifications and intent; it still permits the declared removal of empty fillers, stuttered syllables, and clear abandoned starts. Meaningful interjections, self-corrections, negation, uncertainty, demonstratives, logical connectors and rhetorical repetition remain. A request for **strict verbatim** overrides these cleanup defaults, even where the result sounds awkward.
+**Apply this cleanup by default.** Preserve every substantive fact, argument, example, qualification and speaker intention while removing speech debris that carries no meaning:
+
+- Remove empty hesitation sounds such as **呃、嗯、啊 / um, uh**, meaningless uses of **这个、那个、就是说**, stuttered syllables, and clearly abandoned starts or redundant immediate restarts. Judge each occurrence in context; do not delete these words through blanket replacement.
+- Preserve meaningful assent or emotion, substantive demonstratives, logical connectors, negation, uncertainty, self-corrections that add information, and rhetorical repetition. If a passage may carry meaning, retain it or flag the uncertainty.
+- **“Do not abridge / 不要删减” means preserve substantive information; it does not require retaining every meaningless filler or stutter.** Declare the cleanup categories in the editing explanation so these removals are transparent.
+- **Exception: an explicit request for strict verbatim / 严格逐字稿 overrides this default.** Retain fillers, stutters, abandoned starts and repetitions in that mode unless the user separately authorizes their removal. Other explicit editing preferences also take precedence.
+
+## Choose the edit level
+
+I state the level once and proceed with **Medium** unless the user specifies otherwise. The clean-record default above governs ordinary proofreading; a requested level or strict-verbatim mode sets its exceptions.
 
 | Level | What I change | What stays a query or separate task |
 |---|---|---|
