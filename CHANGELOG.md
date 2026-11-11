@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-11-11 — Make contextual restoration a proofreading default
+
+- Made proactive repair of recoverable ASR damage explicit in Medium and Heavy; missing audio or uncertain exact wording alone no longer sends routine inference back to the user.
+- Separated wording uncertainty from materially different meanings, preserved strict-verbatim and factual-claim boundaries, and clarified clean-text delivery with external editing notes.
+- Made removal of unmistakable stuttered syllables explicit, including 源源于 → 源于, while preserving valid repeated-character expressions and deliberate emphasis. Kept skill instructions in English.
+- Reconciled the core, project instructions, experience-table guidance and README; documented the user-requested policy separately from the editorial books.
+
 ### 2026-11-11 — Reconcile interview 417 user feedback
 
 - Added 45 user-confirmed case readings (81–125), preserved existing candidate rows, and updated the review state of explicitly confirmed earlier observations.

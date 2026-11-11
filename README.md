@@ -1,8 +1,8 @@
 # Transcript Proofreader
 
-I start by distinguishing a damaged transcription from something the speaker actually meant to say. A financial discussion may turn “试场” into a strong candidate for “市场.” A glass factory discussing “玻璃” gives me no reason to substitute “保利,” even if that company appears in a familiar confusion table. I compare the words, their sounds, the local context and confirmed entities; when the evidence does not settle the reading, I keep the uncertainty visible.
+I distinguish damaged transcription from what the speaker meant to say. When local context makes a broken sentence recoverable, I repair it directly and identify inferred wording in the editing notes. Missing audio or uncertainty between equivalent expressions does not require leaving obvious nonsense for the user to solve. A financial discussion may support “试场” → “市场”; a glass factory discussing “玻璃” gives no reason to substitute “保利.” I query alternatives that would change the meaning or facts.
 
-I make speech readable without taking over its argument. Empty hesitations and abandoned starts can disappear in a clean oral record, while negation, doubt, meaningful self-correction and rhetorical repetition remain. Strict verbatim changes that decision: it asks me to retain the disfluencies too. A more elegant sentence is not necessarily a more faithful transcript.
+I make speech readable without taking over its argument. A clean oral record removes empty hesitations, abandoned starts and unmistakable stutters such as “源源于” → “源于” directly, including under “do not abridge.” Valid phrases such as “源源不断,” negation, doubt, meaningful self-correction and deliberate emphasis remain. Strict verbatim retains the disfluencies too. A more elegant sentence is not necessarily a more faithful transcript.
 
 I deliver the corrected text with an explanation of substantive changes and unresolved questions. Names, numbers, speaker labels and added words receive particular care. I carry decisions across chunks and distinguish what I verified from what I inferred. My editorial references help me decide how far to intervene; Ariel Lee's Liu Zhongjing confusion-pattern experience helps generate candidates without deciding the utterance in advance.
 
@@ -30,7 +30,7 @@ flowchart TD
     class output result
 ```
 
-Default **Medium** produces a clean oral record. Light limits intervention; Heavy adds agreed tightening and headings while preserving meaning. Publication adaptation and paraphrase are separate outputs when requested. **FIQ — Fix / Ignore / Query** clarifies disputed categories. Audio, source lookup and document export require the host's actual tools and access; loading the skill does not establish that those checks occurred.
+Default **Medium** produces a clean oral record, including proactive contextual repair of obvious ASR damage. Light limits intervention; Heavy adds agreed tightening and headings while preserving meaning. Strict verbatim overrides reconstruction unless separately authorized. Publication adaptation and paraphrase remain separate tasks. **FIQ — Fix / Ignore / Query** distinguishes supported repair from unresolved meaning. Audio, source lookup and export require actual tools and access; loading the skill does not establish that those checks occurred.
 
 ## Use it for
 
@@ -141,7 +141,7 @@ The upstream published-layout validator is run unchanged and its raw result reta
 
 ## Limits
 
-Without audio, the skill cannot resolve every word or speaker turn. A familiar name or theme is not enough to restore a phrase, and semantic paraphrase is not phonetic evidence. Unsupported cases remain queries. Historic source statements about software or access do not settle present behavior or permissions.
+Without audio, the skill cannot verify exact spoken words or every speaker turn; it can still restore clearly damaged transcription from local evidence. Inferred wording is disclosed separately from user confirmation and audio verification. A familiar name, theme or preferred factual account alone cannot justify a repair. Materially ambiguous cases remain queries. Historic software or access statements do not settle present behavior or permissions.
 
 This revision is a targeted expansion, not a full fresh audit of every inherited claim or every book page. The diagrams are editable Mermaid source; visual rendering status is recorded in the evaluation ledger. Real transcript benchmarks, source-audio comparison and independent final-case evaluation remain outstanding.
 

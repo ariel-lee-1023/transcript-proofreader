@@ -14,9 +14,9 @@
         "Copyright (c) 2026 Ariel Lee"
       ]
     },
-    "master_body_tokens": 3730,
-    "master_budget": 3525,
-    "master_capabilities": 6,
+    "master_body_tokens": 4093,
+    "master_budget": 3875,
+    "master_capabilities": 7,
     "references": {
       "reference-einsohn-copyediting.md": {
         "tokens": 6333,

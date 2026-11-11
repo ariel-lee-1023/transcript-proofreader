@@ -19,16 +19,16 @@ This table supplies candidate readings reported in Ariel Lee's work with Liu Zho
 - Use **only** when a trigger condition is met (e.g., phonetic similarity + abrupt semantic break, first occurrence of name-like string, known confusion pattern match, or context of warlord-era / class/order / 诸夏 theory / military-industrial / geopolitical strategy discussion).
 - **Never override** the actual transcript content or speaker intent. If the transcript consistently uses a non-standard variant, respect it and document the choice in Entity Memory.
 - Always cross-check against running Entity Memory, immediate surrounding sentences, and (when first occurrence or uncertain) perform tool-based verification (web_search / browse_page).
-- If confidence is low after reasoning, preserve original and explicitly mark `存疑` in the modification notes.
+- Apply the core's proactive restoration rule: repair obvious ASR damage when local evidence supports recoverable meaning, and disclose uncertain wording as `上下文推定`. Retain the original and mark `存疑` when materially different meanings remain unresolved; missing audio alone is not a veto.
 - This table does **not** replace the Phonetic Reasoning Protocol or Default Verification Rule in the skill.
 
 ## Evidence gates before using a row
 
 - Retain the unchanged reading as a candidate. A company topic does not exclude literal glass, and a discussion of Chinese provinces can still mention the Netherlands.
 - Compare original and candidate pronunciations separately; several legacy Pinyin cells name only the proposed reading. They are not transcriptions of audio heard in this run. A semantic match does not establish acoustic similarity.
-- Rows **37, 38, 41 and 43** include expansions, deletion of possible information, or broad semantic reconstruction. In particular, “冒绑在我的手里” → “把责任推到我身上” is an interpretive paraphrase, not a homophone correction. Treat these as possible meanings to query unless recording evidence or explicit user confirmation resolves the wording. Do not add them as recovered speech from topic alone.
+- Rows **37, 38, 41 and 43** include expansions, deletion of possible information, or broad semantic reconstruction. In particular, “冒绑在我的手里” → “把责任推到我身上” is an interpretive paraphrase, not a homophone correction. Apply the core's contextual-restoration rule: local evidence must establish recoverable meaning before using a repair. Query if alternatives change the meaning or require unsupported content; a table match or topic alone is insufficient.
 - Identity rows (the same text in both columns) are spelling reminders, not errors. Negation, modality, names and evaluative labels require particular care. Do not choose a derogatory term merely because it suits a presumed worldview.
-- Preserve uncertainty where a competing reading remains plausible. Report the row number, original wording, chosen/retained form and actual evidence in editing notes. A lookup establishes spelling or usage, not what was spoken.
+- Distinguish competing wording from competing meaning. Equivalent plausible formulations allow a disclosed contextual repair; alternatives changing facts, referents or polarity need a query. Report the row number, original, chosen/retained form and evidence in editing notes. A lookup establishes spelling or usage, not what was spoken.
 
 ## Candidate Pairs and Spelling Reminders
 
