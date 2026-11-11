@@ -64,3 +64,7 @@ The user selected Ariel's `experience-based-speaker-patterns` name. The canonica
 ## Interview 417 additions — 2026-11-11
 
 At the user's request, 35 provisional text-only correction observations were appended as entries 46–80. The inherited entries 1–45 remain unchanged. Source identity, segment locators, spelling references, retained readings and pending listening review are recorded in [interview-417-additions.md](interview-417-additions.md). These observations are assistant-proposed additions to Ariel Lee's experience collection, not new material from the editorial books or audio-verified quotations. The user also requested the unresolved passages' contexts for replay; no listening confirmation has yet been supplied.
+
+## Interview 417 user feedback and contextual repairs — 2026-11-11
+
+The user subsequently supplied individual corrections and resolved four targeted wording/location questions. Entries 81–125 record those confirmations; selected earlier entries receive case-specific status updates. A later request authorized contextual repairs of clearly nonsensical sentences; those assistant-proposed readings remain provisional in entries 126–132. [The follow-up ledger](interview-417-user-review.md) separates confirmation, inference, grammar cleanup and outstanding uncertainty. No recording was inspected by the assistant, and no historical claim is treated as independently validated by these edits.

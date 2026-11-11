@@ -9,20 +9,21 @@
     "fidelity-ledger/coverage-audit.md",
     "fidelity-ledger/evaluation.md",
     "fidelity-ledger/interview-417-additions.md",
+    "fidelity-ledger/interview-417-user-review.md",
     "fidelity-ledger/source-and-coverage-ledger.md",
     "references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md",
     "references/reference-einsohn-copyediting.md",
     "references/reference-hill-king-oral-history.md",
     "references/reference-saller-editorial-relations.md"
   ],
-  "experience_rows": 80,
+  "experience_rows": 132,
   "discovery": ".agents/skills/transcript-proofreader",
   "runtime_sha256": {
     "SKILL.md": "ae004dcab9cf0026af08cb53155c346e1f2be2aa6361e3805a28fbc8b3e399c3",
     "references/reference-einsohn-copyediting.md": "64aa670c2fc6e3f155dca2c4cacf5ccc519cdac19bac4997afd7702ed1aac41b",
     "references/reference-hill-king-oral-history.md": "f1b7ea8c94c86c71dbf3b250ad0b378ad4c657b2bdfb6749122d26026fc9ca8b",
     "references/reference-saller-editorial-relations.md": "68bc4156ff122061d5ca545c852f605149492d145b8acbcc412a53c0ffd68c21",
-    "references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md": "bdac3b4490b730505b1ad6a90870c34cc902578a916c50f9236768f007325e47"
+    "references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md": "3f325f6db06c4081e812999c3562bb96e8fafdcf25ca7b5014cae707063d57c8"
   },
   "upstream_status": "user_requested_layout_exception",
   "scans": {

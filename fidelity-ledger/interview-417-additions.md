@@ -1,5 +1,7 @@
 # Interview 417 candidate additions — 2026-11-11
 
+**Historical record of the initial addition.** Subsequent user confirmations and contextual-repair decisions are recorded in [interview-417-user-review.md](interview-417-user-review.md); initial unresolved statuses below describe that earlier pass.
+
 ## Scope, provenance and review state
 
 The user asked to add the preceding proofreading report's major substantive corrections to the confusion table and push the change. This pass appends entries 46–80 to [Ariel Lee's Liu Zhongjing experience table](../references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md). Entries 1–45 remain byte-for-byte unchanged. The additions were proposed by the assistant during the user's proofreading job; attribution to the collection does not imply that Ariel Lee independently heard or approved every restoration.

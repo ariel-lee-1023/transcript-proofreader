@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-11-11 — Reconcile interview 417 user feedback
+
+- Added 45 user-confirmed case readings (81–125), preserved existing candidate rows, and updated the review state of explicitly confirmed earlier observations.
+- Recorded four wording/location clarifications, retained counterexamples and routine cleanup confirmations with source segment locators.
+- Added seven separate provisional contextual-repair candidates (126–132) after the user authorized restoration of clearly damaged sentences; did not describe those inferred words as audio-verified or user-confirmed.
+
 ### 2026-11-11 — Record interview 417 correction candidates
 
 - Appended 35 candidate entries (46–80) with observed and proposed pronunciations, context, nonmatching cases and explicit text-only review status; preserved entries 1–45 unchanged.

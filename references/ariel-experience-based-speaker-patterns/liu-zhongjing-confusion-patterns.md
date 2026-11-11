@@ -7,7 +7,7 @@ description: Ariel Lee's experience-based candidate readings and terminology for
 
 **Compiled from experience by: Ariel Lee.** The user confirmed this attribution on 2026-10-30. This is Ariel Lee's own proofreading experience summary, not a book by Liu Zhongjing, not his authored guidance or endorsement, and not material derived from the three editorial books.
 
-**Revision:** 2026-11-11 (interview 417 additions). Entries 1–45 and their candidate pairs are retained unchanged; entries 46–80 record the subsequent text-only proofreading case.
+**Revision:** 2026-11-11 (interview 417 user feedback and contextual repairs). Existing entries 1–80 retain their IDs and candidate pairs; entries 81–125 record user-confirmed text corrections, and 126–132 record separate provisional contextual repairs.
 
 **Evidence status:** The previous header recorded a 2026-07-01 version, 2026-07-13 additions from interview 398, user-reviewed confidence labels, and later 军化 / 军阀 and 之纳粹 / 支纳粹 additions. That history is preserved as a prior annotation, not independently revalidated here. The underlying audio, per-occurrence corrections, recurrence counts and calibration data were not supplied in this repository maintenance run. “High-frequency,” “high confidence” and “standard” in inherited entries therefore describe prior experience or terminology preferences; they are not measured probabilities, universal standards or proof about a new occurrence.
 
@@ -82,9 +82,9 @@ This table supplies candidate readings reported in Ariel Lee's work with Liu Zho
 
 ## Interview 417 additions — 2026-11-11
 
-**Review state for every entry below: provisional, text-only.** These are assistant-proposed corrections made while proofreading the user-supplied interview 417 transcript, added at the user's request to Ariel Lee's experience collection. No recording was inspected; the request to add and push does not confirm the recovered speech. The user subsequently requested the uncertain passages' context for listening review; that review is pending. These observations do not establish recurrence across interviews, calibrated confidence, or speaker endorsement. Names checked against external sources establish spelling and identity candidates only. Both sides of the Pinyin arrows are approximate readings of written forms, not heard audio.
+**Initial review state for entries 46–80: provisional, text-only.** These were assistant-proposed corrections added at the user's request to Ariel Lee's collection. Subsequent explicit feedback confirms entry 46's segment-39 pair, entries 55–56 and entry 77 for this case; other observations in this block remain provisional. Later confirmations and new readings are recorded separately below. No recording was inspected by the assistant, and a request to add or push does not itself confirm wording. Neither batch establishes cross-interview recurrence, calibrated confidence or speaker endorsement. Lookup evidence establishes spelling and identity candidates, not utterances; Pinyin describes written forms, not heard audio.
 
-Maintain the unchanged reading as a candidate. Longer reconstructions, weak sound matches, and changes to negation require fresh evidence in each use. In particular, rows 46, 55–56, 60, 65, 67, 70, 72–73, 76, 79–80 must not become global replacements. In row 46, the later northeastern-worker occurrence of 王虹 remains unresolved; in rows 55–56, actual references to 川普 remain unchanged; in row 78, literal 风险结构 can be correct in finance. Source segments, spelling references and retained counterexamples are recorded in the [interview 417 maintenance ledger](../../fidelity-ledger/interview-417-additions.md); ordinary proofreading need not load that ledger.
+Maintain the unchanged reading as a candidate. Longer reconstructions, weak sound matches, and changes to negation require fresh evidence in each use. In particular, rows 46, 55–56, 60, 65, 67, 70, 72–73, 76, 79–80 must not become global replacements. In row 46, the later northeastern-worker occurrence of 王虹 is separately confirmed as 王洪文 in entry 99; in rows 55–56, actual references to 川普 remain unchanged; in row 78, literal 风险结构 can be correct in finance. Source segments, spelling references and retained counterexamples are recorded in the [interview 417 maintenance ledger](../../fidelity-ledger/interview-417-additions.md); ordinary proofreading need not load that ledger.
 
 | # | Observed / Possible Error Form | Candidate / Recorded Form | Approx. Pinyin: observed → candidate | Case context | Disambiguation Guidance |
 |---|---|---|---|---|---|
@@ -124,7 +124,75 @@ Maintain the unchanged reading as a candidate. Longer reconstructions, weak soun
 | 79 | 风险保率 | 封建堡垒 | fēng xiǎn bǎo lǜ → fēng jiàn bǎo lěi | 日本企业与下一句旧的封建特权受益者 | 多音节上下文还原；本例只暂定该隐喻，保险或风险比率的实际讨论不可套用。 |
 | 80 | 农民享受过的公共服务 | 农民享受不到的公共服务 | nóng mín xiǎng shòu guò de gōng gòng fú wù → nóng mín xiǎng shòu bu dào de gōng gòng fú wù | 前文明确说福利待遇是农民所享受不到的，并谈公共服务消失 | **涉及否定改变，不能作为一般纠错。** 本例按紧邻明确表述作暂定整理；仍须核音区分误识、口误或今昔对比，不可因逻辑更顺就翻转肯否。 |
 
-**Retained counterexamples from the same job:** 有一部分经费没有上海支付保留原读；由上海支付虽符合并列句式，但会改变否定，未采用。王虹作为东北工人的指称未按第46条改名。沙箱主义／沙县主义、53的初期、15年到1954年、150万、8000年等仍待核音，未收入为已采用的修正。以上未决项只有录音或明确的逐项反馈才能升级为已解决，加入本表或推送仓库本身不改变其状态。
+**Case boundaries after user feedback:** 有一部分经费没有上海支付仍保留原读；并列句式不足以授权反转否定。东北工人的王虹、撒切尔相关误识、53的初期、15年到1954年、150万及8000年已由用户分别给出读法，记录于下方对应条目。未涉及的残句与历史疑点仍未解决，不能因本次反馈而整批升级状态。
+
+## Interview 417 user-confirmed readings — 2026-11-11
+
+**Review state: explicit user text confirmation, not assistant-inspected audio.** The user returned corrections against the replay-context list. Because list numbers crossed, each correction was matched by its original wording and source segment. Follow-up clarification explicitly chose 赣越 rather than 戆越, 利益 without the accidental 言, 赞米亚 rather than 赞比亚, and located the private-property sentence in segment 346 rather than 348. These case decisions supply candidates for later interviews, not automatic replacements. See the [user-review ledger](../../fidelity-ledger/interview-417-user-review.md) for exact scope and the separate contextual-repair authorization.
+
+Existing entry 46 is confirmed only for the supplied 王主袁文才 occurrence; the other paired variant retains its original evidence state. Entries 55, 56 and 77 are confirmed for their listed occurrences. Routine cleanups 源源于→源于, 川普的嗯ICE→川普的ICE and 金融金融环境→金融环境 were already applied and are recorded as cleanup decisions rather than duplicate lexical entries. 绵阳和同县 is retained as supplied by the user.
+
+| # | Observed / Possible Error Form | Candidate / Recorded Form | Approx. Pinyin: observed → candidate | Case context | Disambiguation Guidance |
+|---|---|---|---|---|---|
+| 81 | 自发自息 | 自发秩序 | zì fā zì xī → zì fā zhì xù | 讨论地方历史、自组织与诸夏 | 用户确认本例；对照未编号自组织／自发秩序提示，不能仅凭主题还原。 |
+| 82 | 诛杀 / 独产 | 诸夏 | zhū shā / dú chǎn → zhū xià | 诸夏的问题、诸夏没有自己的国史 | 用户分别确认两种误识；独产与诸夏音形差距大，不能把此个案当同音规则。 |
+| 83 | 正在延伸下雨 | 正在延伸的体系 | zhèng zài yán shēn xià yǔ → zhèng zài yán shēn de tǐ xì | 计划经济尚未整合完成的叙述 | 用户确认句段；不据此将真实天气叙述改为体系。 |
+| 84 | 庄子里面 | 方志敏 | zhuāng zǐ lǐ miàn → fāng zhì mǐn | 苏区地方人物与自己的兄弟会 | 用户确认人名；音节不同，须依同一人物链定位，庄子相关论述不适用。 |
+| 85 | 假公司 | 蒋介石 | jiǎ gōng sī → jiǎng jiè shí | 共产国际担心出现新的小蒋介石 | 本例已作文字修正，用户随后确认；真实的假公司仍应保留。 |
+| 86 | 高价服务 | 在高加索 | gāo jià fú wù → zài gāo jiā suǒ | 接塞尔维亚的部落、派系关系比较 | 用户确认地名与介词；不是对所有高价服务的替换。 |
+| 87 | 带一些民族 | 带一些人走 | dài yì xiē mín zú → dài yì xiē rén zǒu | 地方残余势力叛乱、带人离开 | 用户确认动作；不要由民族冲突主题反推此句的对象。 |
+| 88 | 草草还公债运动 | 偿还公债运动 | cǎo cǎo huán gōng zhài yùn dòng → cháng huán gōng zhài yùn dòng | 查田运动、公粮及公债压力 | 用户确认名称；本条不替代相邻债券捐献句的独立判断。 |
+| 89 | 战略 / 干位酋长 | 赣越 / 赣越酋长 | zhàn lüè / gàn wèi qiú zhǎng → gàn yuè / gàn yuè qiú zhǎng | 江西及周边山地的地方历史 | 用户先写戆越，追问后明确统一为赣越；仅替换此段的地方称谓，真正的战略分析保留。 |
+| 90 | 动物酋长 / 那些动物 | 侗族酋长 / 那些侗族 | dòng wù qiú zhǎng / nà xiē dòng wù → dòng zú qiú zhǎng / nà xiē dòng zú | 紧接赣越地方首领的叙述 | 用户确认侗族酋长，并在紧邻回指中保持该族称；不把峒主一词全局改成侗族。 |
+| 91 | 毛泽东遇到的王守仁 | 毛泽东遇到的王佐、袁文才 | máo zé dōng yù dào de wáng shǒu rén → máo zé dōng yù dào de wáng zuǒ, yuán wén cái | 井冈山地方势力 | 用户确认此处两人；前段明代语境中的王守仁原样保留。 |
+| 92 | 战役啊，3D | 赞米亚山地 | zhàn yì a, sān dī → zàn mǐ yà shān dì | 翠微峰及难以征服的山地 | 用户先写赞比亚，追问后明确选择赞米亚山地；不得沿用最初输入错误。 |
+| 93 | 53的初期 | 五十年代的初期 | wǔ shí sān de chū qī → wǔ shí nián dài de chū qī | 毛泽东、军工支持与井冈山叛乱 | 用户确认年代范围，不是1953年的同义改写；其他数字53不可照改。 |
+| 94 | 这是一般人 | 这是一般而言 | zhè shì yì bān rén → zhè shì yì bān ér yán | 国企福利的一般说法与满洲对比 | 用户确认概括语；不得自行把人群判断改成一般论断。 |
+| 95 | 就是就买车 | 就是旧满铁 | jiù shì jiù mǎi chē → jiù shì jiù mǎn tiě | 长春铁路公司及其原有福利 | 用户确认机构称谓；保留长春铁路公司原称，不用本条修订历史事实。 |
+| 96 | 跨国工程 | 华国锋 | kuà guó gōng chéng → huà guó fēng | 与邓小平并列的领导人姓名 | 用户确认人名；后面的设员需另行判断，真实跨国工程语境不适用。 |
+| 97 | 在一并建立 | 在宜宾建立 | zài yī bìng jiàn lì → zài yí bīn jiàn lì | 企业布局、从各地调人 | 用户确认先前已采用的地名；一并作为副词时仍成立。 |
+| 98 | 到船后这 | 到全国各地 | dào chuán hòu zhè → dào quán guó gè dì | 到各地抽调企业人员 | 用户确认整段，不是逐音同音替换；不自动补其他省市。 |
+| 99 | 王虹 | 王洪文 | wáng hóng → wáng hóng wén | 像王虹那样的东北工人 | 用户确认本处；与第46条井冈山的王佐、袁文才分别登记，不能跨人物合并。 |
+| 100 | 华杉 | 黄俄 | huá shān → huáng é | 内人党与其他政治集团不合 | 用户确认该政治称谓，非编辑评价；正常人名华杉不得因观点相似被替换。 |
+| 101 | 明常面 | 名义上 | míng cháng miàn → míng yì shàng | 被收编人员成为共产党成员 | 用户确认修饰语；不是通用同音对应。 |
+| 102 | 刘润 | 刘汉 | liú rùn → liú hàn | 四川本土豪强企业家 | 用户确认所指人物；真实的刘润不能按企业家话题改名。 |
+| 103 | 传出来 | 出身 | chuán chū lái → chū shēn | 紧接刘汉等本土企业家的出身描述 | 仅记录用户在本句的确认；不将其他传出消息、传承等动作替换为出身。 |
+| 104 | 名词性的 | 临时性的 | míng cí xìng de → lín shí xìng de | 不同企业的经费支付方式 | 用户确认期限属性；语言学中的名词性不适用。 |
+| 105 | 从15年到1954年 | 从1950年到1954年 | cóng shí wǔ nián dào yī jiǔ wǔ sì nián → cóng yī jiǔ wǔ líng nián dào yī jiǔ wǔ sì nián | 紧接1950年南下入川 | 用户明确补正年份，不能自行把类似15统一补成1950。 |
+| 106 | 反普战争 | 反恐战争 | fǎn pǔ zhàn zhēng → fǎn kǒng zhàn zhēng | 第三次反恐战争的讲者表述 | 用户确认此词；保留战争名称及第三次原有说法，不声称历史定名已获独立核实。 |
+| 107 | 沙漠环境历史 | 藩镇历史 | shā mò huán jìng lì shǐ → fān zhèn lì shǐ | 与土司历史并列比较地方势力 | 用户确认的多词复原，音节差距明显，不能称为近音惯例。 |
+| 108 | 新数史或者是新商史 | 新蜀史或是新湘史 | xīn shù shǐ huò zhě shì xīn shāng shǐ → xīn shǔ shǐ huò shì xīn xiāng shǐ | 从地方历史解释不同企业体系 | 用户确认两种地方史称谓；不据此断言同名书已出版。 |
+| 109 | 地同是地下活动，旧白市场 | 从事地下活动的旧白区党 | dì tóng shì dì xià huó dòng, jiù bái shì chǎng → cóng shì dì xià huó dòng de jiù bái qū dǎng | 与南下大军并列的地下党群体 | 用户确认整段，并与第7–8条组织名称一致；不用于白市场的字面经济语境。 |
+| 110 | 东南 | 东莱 | dōng nán → dōng lái | 青岛、山东半岛与辽东贸易及东莱本位历史 | 用户确认地理称谓，仅在同一地方史线索内应用；实际东南方位保留。 |
+| 111 | 当中也 | 当中一员 | dāng zhōng yě → dāng zhōng yī yuán | 顾准与根据地财经干部 | 用户确认成员关系；补系词是另行语法整理，不意味着其他当中也均为误识。 |
+| 112 | 其他公民 | 贫下中农 | qí tā gōng mín → pín xià zhōng nóng | 有浙江户口者与其他地区农民的待遇比较 | 用户确认阶层指称；与第72条不同的损坏形式分别记录。 |
+| 113 | 湖北贫下中农 | 湖北贫下中农的利益 | hú běi pín xià zhōng nóng → hú běi pín xià zhōng nóng de lì yì | 不能让河南农民来分本地人的利益 | 仅补本句的宾语尾部。用户追问确认去掉误输入的言；不能在该称谓每次出现时都添加的利益。 |
+| 114 | 对本所言 | 追根溯源 | duì běn suǒ yán → zhuī gēn sù yuán | 由不同地区待遇返回地方历史 | 用户确认此处用词；同篇推本溯源、追本溯源等别处原读不统一替换。 |
+| 115 | 组织私有企业商人，还有私私有财产 | 组织商业的商人依然有自己的私有财产 | zǔ zhī sī yǒu qǐ yè shāng rén, hái yǒu sī sī yǒu cái chǎn → zǔ zhī shāng yè de shāng rén yī rán yǒu zì jǐ de sī yǒu cái chǎn | 政治指导下仍保有私产，随后举克虏伯公司 | 用户追问明确替换前句346，不移到后句348；这是用户确认的整句复原，不是同音词表。 |
+| 116 | 150万这样的各种问题 | 150万遍的问题 | yī bǎi wǔ shí wàn zhè yàng de gè zhǒng wèn tí → yī bǎi wǔ shí wàn biàn de wèn tí | 经济学家早已反复讲过的问题 | 用户确认次数表达，保留150万的原有夸张程度，不按事实估计改数字。 |
+| 117 | 沙箱主义 / 沙县主义 | 撒切尔 | shā xiāng zhǔ yì / shā xiàn zhǔ yì → sā qiè ěr | 金融自由化、与里根并列 | 用户给定的恢复形式是撒切尔；未自行添加主义。只在该人物线索下同步两种误识。 |
+| 118 | 农民日就会越悲惨 | 农民就会越悲惨 | nóng mín rì jiù huì yuè bēi cǎn → nóng mín jiù huì yuè bēi cǎn | 工业、财政与农民处境的比较 | 用户确认删去误识的日；其他农民日活动或日期表达不适用。 |
+| 119 | 不是把 | 本例删去 | bú shì bǎ → — | 日本80年代科技投资句中的断裂起句 | 用户明确要求删除；不能把含否定的残句普遍当填充词删去。 |
+| 120 | 差项 | 其他项 | chà xiàng → qí tā xiàng | 日本这一项以及很多其他项的科技投资 | 用户确认限定词；数学、会计差项等真实术语保留。 |
+| 121 | 和这些算法 | 可以支撑这些 | hé zhè xiē suàn fǎ → kě yǐ zhī chēng zhè xiē | 全世界也只有美国可以支撑这些试错成本 | 用户确认谓语；不把算法话题中的正常术语改掉。 |
+| 122 | 去建钱 | 界限 | qù jiàn qián → jiè xiàn | 跨越这方面的界限 | 用户确认对象；结构助词的属于语法修复，不能作为新增论断。 |
+| 123 | 8000年 | 这个时代 | bā qiān nián → zhè ge shí dài | 美国为未来进行技术竞争 | 用户确认此处不是数值年份；不得给别处8000年泛化同一读法。 |
+| 124 | 所在的前 | 所在的现在 | suǒ zài de qián → suǒ zài de xiàn zài | 这个未来就是我们所在的现在 | 用户确认当下指称；不能凭未来主题普遍添加现在。 |
+| 125 | 有流水快流 | 有水快流 | yǒu liú shuǐ kuài liú → yǒu shuǐ kuài liú | 与急功近利、不负责任并列的做法 | 用户确认短语；合并原先已有的有，避免产生有有水快流。 |
+
+## Interview 417 contextual repairs — provisional
+
+After the item-by-item corrections, the user explicitly requested meaningful contextual repair of clearly damaged sentences, using 在产品的均成 as the example. The seven entries below record the assistant's resulting lexical reconstructions separately from user-confirmed wording. They are provisional even though contextual editing is authorized. Competing readings remain possible; explain these reconstructions outside the transcript when that is the user's requested format. They do not license arbitrary factual changes, replacement of disputed claims, or filling any unknown name from topic alone.
+
+| # | Observed / Possible Error Form | Candidate / Recorded Form | Approx. Pinyin: observed → candidate | Case context | Disambiguation Guidance |
+|---|---|---|---|---|---|
+| 126 | 把电线粘出来 | 把债券捐出来 | bǎ diàn xiàn nián chū lái → bǎ zhài quàn juān chū lái | 先买公债，再被迫捐献公债 | 紧邻两句支持债券与捐献，但仍是文字推定；不能仅为财务逻辑顺畅而断言听到了债券。 |
+| 127 | 邓小平的设员 | 邓小平的时代 | dèng xiǎo píng de shè yuán → dèng xiǎo píng de shí dài | 华国锋、邓小平与直到后来的年代叙述 | 用户只确认华国锋等姓名；时代是助手按上下文的候选，不能标为用户核准原词。 |
+| 128 | 他现在在产品的均成本 | 它生产的产品是军工产品 | tā xiàn zài zài chǎn pǐn de jūn chéng běn → tā shēng chǎn de chǎn pǐn shì jūn gōng chǎn pǐn | 克虏伯公司、希特勒和政治指导 | 用户要求修复句意，未确认原词；军需品也是候选。采用军工产品是上下文推定，企业史只能支持产业背景，不能证明说话人的措辞或法律因果。 |
+| 129 | 进行特点 | 时期的特点 | jìn xíng tè diǎn → shí qī de tè diǎn | 里根、撒切尔和金融自由化 | 按前后时代背景暂拟；也可能是经济等别的词，不是已完成核音。 |
+| 130 | 全球资本主义统一 | 全球资本主义的中心 | quán qiú zī běn zhǔ yì tǒng yī → quán qiú zī běn zhǔ yì de zhōng xīn | 伦敦城、美国经济与金融体系 | 语义修复候选，非同音；用户允许上下文修复不等于确认中心一词。 |
+| 131 | 所独有的高 | 所独有的高风险 | suǒ dú yǒu de gāo → suǒ dú yǒu de gāo fēng xiǎn | 此前讨论金融自由化的危机 | 由危机话题补足残句，风险未在此残片中转录出来，须在编辑说明中标明推定。 |
+| 132 | 80后的信息 | 80年代的情形 | bā líng hòu de xìn xī → bā shí nián dài de qíng xíng | 前后两次明确80年代，回顾电视与科技投资 | 年代由同段重复约束；情形仍是候选，勿把所有80后人口话题改成年代。 |
 
 ## Additional Core 姨学 / Liu Zhongjing Terminology (Standard Forms)
 
