@@ -41,8 +41,8 @@ def check(root, book_tools=None):
         errors.append('Experience table is not routed from the core')
     companion = (root / 'references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md').read_text()
     rows = [int(n) for n in re.findall(r'^\|\s*(\d+)\s*\|', companion, re.M)]
-    if rows != list(range(1, 46)):
-        errors.append('Experience rows must retain stable ordered IDs 1–45')
+    if rows[:45] != list(range(1, 46)) or rows != list(range(1, len(rows) + 1)):
+        errors.append('Experience rows must retain IDs 1–45 and append consecutive unique IDs')
     if "Compiled from experience by: Ariel Lee" not in companion:
         errors.append('Missing experience authorship')
     checked = []

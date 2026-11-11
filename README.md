@@ -93,7 +93,7 @@ flowchart LR
 
 - [SKILL.md](SKILL.md): reasoning, record types, evidence rules, continuity and source loading.
 - [references/](references/): three canonical book distillations and a separate `ariel-experience-based-speaker-patterns/` folder for Ariel Lee's experience-based patterns for specific speakers.
-- [liu-zhongjing-confusion-patterns.md](references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md): Ariel Lee's 45 numbered candidate/spelling entries and terminology cues, stored under `references/ariel-experience-based-speaker-patterns/` to distinguish practitioner experience from book distillations.
+- [liu-zhongjing-confusion-patterns.md](references/ariel-experience-based-speaker-patterns/liu-zhongjing-confusion-patterns.md): Ariel Lee's collection of 80 numbered candidate/spelling entries and terminology cues. Entries 1–45 retain the inherited record; entries 46–80 are provisional text-only observations from interview 417, with [case provenance and retained counterexamples](fidelity-ledger/interview-417-additions.md). The collection is stored separately from book distillations.
 - [AGENTS.md](AGENTS.md): project discovery and workflow instructions.
 - [fidelity-ledger/](fidelity-ledger/): source provenance, coverage, reading, evaluation and validation records; not a runtime reference directory.
 - [CHANGELOG.md](CHANGELOG.md), [NOTICE.md](NOTICE.md), [LICENSE](LICENSE) and [.github/workflows/validate-skill.yml](.github/workflows/validate-skill.yml): existing project documentation and CI.
@@ -137,7 +137,7 @@ The 2026-10-30 revision deepened the existing three references using bounded rea
 
 See [source and coverage ledger](fidelity-ledger/source-and-coverage-ledger.md), [coverage audit](fidelity-ledger/coverage-audit.md), [reading report](fidelity-ledger/reading-report.json), [validation](fidelity-ledger/validation.json) and [evaluation status](fidelity-ledger/evaluation.md). A frozen [acceptance suite](fidelity-ledger/acceptance-suite.json) supports later baseline/core/core-plus-references comparisons. **Independent model behavioral acceptance has not been run**; source review and structural checks do not demonstrate improved accuracy.
 
-The upstream published-layout validator is run unchanged and its raw result retained. Its flat-book layout rejects subfolders under `references/`; the user explicitly requested `references/ariel-experience-based-speaker-patterns/` for practitioner experience. The repository checker accepts only that exact layout exception and checks the folder contents, core routing, links, discovery symlink, 45 row identities, attribution and runtime hashes. Other errors still fail validation. See [validate_repository.py](fidelity-ledger/validate_repository.py) and [repository check results](fidelity-ledger/repository-validation.json).
+The upstream published-layout validator is run unchanged and its raw result retained. Its flat-book layout rejects subfolders under `references/`; the user explicitly requested `references/ariel-experience-based-speaker-patterns/` for practitioner experience. The repository checker accepts only that exact layout exception and checks the folder contents, core routing, links, discovery symlink, the inherited IDs 1–45 plus consecutive appended IDs, attribution and runtime hashes. Other errors still fail validation. See [validate_repository.py](fidelity-ledger/validate_repository.py) and [repository check results](fidelity-ledger/repository-validation.json).
 
 ## Limits
 

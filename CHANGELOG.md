@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-11-11 — Record interview 417 correction candidates
+
+- Appended 35 candidate entries (46–80) with observed and proposed pronunciations, context, nonmatching cases and explicit text-only review status; preserved entries 1–45 unchanged.
+- Recorded source locators, spelling references, attribution and pending listening review in the maintenance ledger. Negation changes and phrase reconstructions remain conditional, and unresolved readings are not promoted to confirmed corrections.
+- Updated the README and repository checker for consecutive appended entry IDs.
+
 ### 2026-10-30 — Name Ariel's speaker-pattern collection
 
 - Renamed `references/experience-based/` to `references/ariel-experience-based-speaker-patterns/` to identify the contributor, experiential basis and speaker-specific scope.

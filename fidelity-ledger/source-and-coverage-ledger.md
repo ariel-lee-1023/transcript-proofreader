@@ -60,3 +60,7 @@ The user requested a dedicated folder inside `references/`. The experience table
 ## User-selected collection name — 2026-10-30
 
 The user selected Ariel's `experience-based-speaker-patterns` name. The canonical directory is now `references/ariel-experience-based-speaker-patterns/`, identifying Ariel Lee's experience-based collection for specific speakers. The Liu Zhongjing file is unchanged. Earlier paths above describe the repository's historical layout; active loading links and validation use the new path.
+
+## Interview 417 additions — 2026-11-11
+
+At the user's request, 35 provisional text-only correction observations were appended as entries 46–80. The inherited entries 1–45 remain unchanged. Source identity, segment locators, spelling references, retained readings and pending listening review are recorded in [interview-417-additions.md](interview-417-additions.md). These observations are assistant-proposed additions to Ariel Lee's experience collection, not new material from the editorial books or audio-verified quotations. The user also requested the unresolved passages' contexts for replay; no listening confirmation has yet been supplied.
